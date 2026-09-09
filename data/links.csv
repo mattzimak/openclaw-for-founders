@@ -1,0 +1,62 @@
+id,name,url,also_urls,kind,section,subsection,description,why,rating,install,notes,notion_block_id,first_seen
+d4bf255f,Back up agent workspace,https://docs.openclaw.ai/concepts/agent-workspace,,site,Field notes,General,,,,,,32cdaecf-ce6b-801f-82d3-fc363ff7f021,2026-09-09
+cd494f9b,Health check help,https://docs.openclaw.ai/gateway/health,,site,Field notes,General,,,,,,349daecf-ce6b-803f-9c90-fbb0f782097a,2026-09-09
+3557eddc,put them in.openclaw/.env,https://docs.openclaw.ai/help/environment,,site,Field notes,General,,,,,,34bdaecf-ce6b-80a8-b3d5-ca8de6af8423,2026-09-09
+4758c15d,Set up help project with Openclaw documentation from,https://context7.com,,site,Field notes,General,,,,,,35edaecf-ce6b-800b-b13d-f779284857fc,2026-09-09
+1f2a33ae,Self-improving skill,https://x.com/coreyganim/status/2035757428579389768,,x,Field notes,Self-improving,,,,,,32cdaecf-ce6b-8012-8038-ce5de44d4158,2026-09-09
+2ec5d0c3,lennysnewsletter.com/p,https://www.lennysnewsletter.com/p/openclaw-the-complete-guide-to-building,,site,Install and first week,,,,,,name-from-url; also in: Use cases,349daecf-ce6b-8072-9ddf-f4ec3bebed2b,2026-09-09
+1b00bf43,r/clawdbot post,https://www.reddit.com/r/clawdbot/comments/1s270n0/if_you_installed_openclaw_this_week_read_this,,reddit,Install and first week,,,,,,name-from-url,34ddaecf-ce6b-801d-a3bb-fe6564d45653,2026-09-09
+df7b78aa,brave.com/search,https://brave.com/search/api,,site,Install and first week,Browser choice,,,,,name-from-url,349daecf-ce6b-809d-b10b-e41348213c00,2026-09-09
+81cb27d7,docs.openclaw.ai/tools,https://docs.openclaw.ai/tools/web,,site,Install and first week,Browser choice,,,,,name-from-url,349daecf-ce6b-80b3-b869-d914df805a2c,2026-09-09
+026f3dbf,Set up Telegram guide here,https://docs.openclaw.ai/channels/telegram,,site,Install and first week,Channel choice,,,,,,349daecf-ce6b-80c7-ad81-fafe0cf04f3f,2026-09-09
+696f218f,@coreyganim on X,https://x.com/coreyganim/status/2036103806975426779,,x,Learn,,,,,,name-from-url,330daecf-ce6b-8032-8d6d-df247636554a,2026-09-09
+79d4456b,@ernestosoftware on X,https://x.com/ernestosoftware/status/2037187494530208029,,x,Learn,,,,,,name-from-url,330daecf-ce6b-8042-aab8-dd6a3eb839db,2026-09-09
+fecb450d,@gregisenberg on X,https://x.com/gregisenberg/status/2034778615464735000,,x,Learn,,,,,,name-from-url,330daecf-ce6b-803d-9843-d1efd96c1c77,2026-09-09
+854f9d96,@moritzkremb on X,https://x.com/moritzkremb/status/2029304864719667335,,x,Learn,,,,,,name-from-url,332daecf-ce6b-80dc-a269-cfb593002bfe,2026-09-09
+e01d5376,@roundtablespace on X,https://x.com/roundtablespace/status/2044879754969387022,,x,Learn,,,,,,name-from-url,344daecf-ce6b-8069-a5ba-df9d1dcb6fd5,2026-09-09
+d8f4bfcc,@ryancarson on X,https://x.com/ryancarson/status/2039786704731541903,,x,Learn,,,,,,name-from-url,333daecf-ce6b-8086-8572-df3ceb1b8996,2026-09-09
+d99fa837,"Hey, how's it going? Here's everything you need for Clawdbot",https://www.get-ryze.ai/blog/clawdbot-google-meta-ads,,site,Learn,,"guide, video, source code: Let me know if you need help setting it up",,,,,337daecf-ce6b-80d7-b916-fbc9660ebd83,2026-09-09
+db3549d0,LinkedIn post,https://www.linkedin.com/posts/petergyang_this-is-the-most-complete-setup-ive-seen-ugcPost-7459248459813064705-5eB4,,linkedin,Learn,,,,,,name-from-url,35ddaecf-ce6b-806e-8902-d25ff575f4f5,2026-09-09
+71a72271,mistakes,https://x.com/kloss_xyz/status/2032011756890177552,,x,Learn,,,,,,,321daecf-ce6b-8061-a824-ebc9cae2b139,2026-09-09
+3950fb91,r/OpenClawUseCases post,https://www.reddit.com/r/OpenClawUseCases/comments/1rd9t8b/i_rebuilt_my_entire_life_os_with_openclaw_after,,reddit,Learn,,,,,,name-from-url,342daecf-ce6b-8068-895c-d6aa489f0e4b,2026-09-09
+85c98609,YouTube video DIa0MYJzM5I,https://www.youtube.com/watch?v=DIa0MYJzM5I&t=1s,,youtube,Learn,,,,,,name-from-url,34ddaecf-ce6b-800e-ba20-cd919fee63de,2026-09-09
+cb281f2e,YouTube video fd4k16REDOU,https://www.youtube.com/watch?v=fd4k16REDOU,,youtube,Learn,,,,,,name-from-url,335daecf-ce6b-806f-9cc2-ff1028b443e0,2026-09-09
+ef94bf78,YouTube video nSBKCZQkmYw,https://www.youtube.com/watch?v=nSBKCZQkmYw,,youtube,Learn,,,,,,name-from-url,342daecf-ce6b-8045-bc4d-cec85c11af83,2026-09-09
+dd70d505,@ksimback on X,https://x.com/ksimback/status/2024180197910864182,,x,Memory and context,,,,,,name-from-url,32cdaecf-ce6b-80ef-a2c3-ca6080dab7c7,2026-09-09
+4260c244,Hindsight,https://github.com/vectorize-io/hindsight,,github,Memory and context,,agent memory that learns.,,,,,37cdaecf-ce6b-80c4-abc6-dbbf2aa0c629,2026-09-09
+93185ed8,LCM,https://github.com/martian-engineering/lossless-claw,,github,Memory and context,,"Lossless Context Management (open-source plugin designed by Martian Engineering) to replace the default, lossy conversation-compaction system",,,,,32cdaecf-ce6b-8092-98ea-ea9ab8495a51,2026-09-09
+1cf9a8ff,Supermemory,https://supermemory.ai,,site,Memory and context,,,,,,,32cdaecf-ce6b-8057-9d6d-d4fce7657603,2026-09-09
+e30724cf,ClawRouter,https://github.com/BlockRunAI/ClawRouter,,github,Models and token burn,,"Smart LLM routing to optimize token burn, if simple question = routing to cheap model, complex code - escalates to Opus or Sonnet",,,,,32cdaecf-ce6b-80eb-9832-e7361e32efbd,2026-09-09
+8f259406,localite heartbeat and use local model for it,https://www.instagram.com/p/DVJPnoGkvnd?img_index=1,,instagram,Models and token burn,,,,,,,32cdaecf-ce6b-80e6-a0f9-e5cd744f24ae,2026-09-09
+cb5f4322,when switching do these settings,https://www.reddit.com/r/openclaw/comments/1sgpg8b/a_lot_of_the_new_gpt_54_sucks_in_openclaw_posts,,reddit,Models and token burn,GPT 5.4,,,,,,34cdaecf-ce6b-80de-a7d9-eefb151c8147,2026-09-09
+156937e0,how to switch,https://x.com/cherry_mx_reds/status/2047390468778901738,,x,Models and token burn,GPT 5.5,,,,,,34ddaecf-ce6b-805a-b59e-e34f0d51d875,2026-09-09
+60dfeee2,Clawbay,https://theclawbay.com,,site,Models and token burn,Token providers,Opus & Codex? (Reddit Post),,,,,346daecf-ce6b-80fe-9ae7-f2996983f02d,2026-09-09
+b1be0b52,OpenClaw Doc,https://docs.openclaw.ai/tools/subagents,,site,Multi-agent and hierarchy,,Hierarchy & subagents,,,,,32cdaecf-ce6b-808a-b68d-d2fcb3f75023,2026-09-09
+ff0ca753,Link - wallet for agents by Stripe (Tweet),https://link.com/en-cz/agents,https://x.com/_maxblade/status/2049604418354438487,site,Operations,Finances,,,,,,353daecf-ce6b-800a-b153-cb71dd2a36d4,2026-09-09
+afec170f,"Amazon EC2 (Ubuntu, instance c7iflex.large, 30GB, Tutorial)",https://www.youtube.com/watch?v=04wh2Hlgbds,,youtube,Operations,Local Mac vs VPS,,,,,,32cdaecf-ce6b-8082-964a-c9beeb568e46,2026-09-09
+6d996c4a,Hostinger,https://www.hostinger.com/vps/docker/openclaw,https://www.youtube.com/watch?v=BhjK2Gr0Ryc,site,Operations,Local Mac vs VPS,"VPS Hosting on VPS (KVM2, Ubuntu 24.04 LTS, commands to run, Tutorial) - get into VPS via SSHing (root address)",,,,,32cdaecf-ce6b-8097-ba61-c55545dd6e3f,2026-09-09
+5b80fbb8,claw3d.ai,https://www.claw3d.ai,,site,Operations,Own dashboard,,,,,name-from-url,32cdaecf-ce6b-809d-a470-cb95b658db9e,2026-09-09
+832c8f7e,agentsidehustleschool.com,https://agentsidehustleschool.com?mode=human,,site,Prompts and collections,Business ideas and inspiration,,,,,name-from-url,342daecf-ce6b-800b-91c0-f7f0d63ab19d,2026-09-09
+fd9a7ef9,Awesome Openclaw,https://github.com/alvinreal/awesome-openclaw,,github,Prompts and collections,Collections,,,,,,34ddaecf-ce6b-80af-a809-f3932b52caa9,2026-09-09
+e67161df,Awesome openclaw skills,https://github.com/VoltAgent/awesome-openclaw-skills,,github,Prompts and collections,Collections,,,,,,377daecf-ce6b-80df-bd73-e025758e35bd,2026-09-09
+055ae1e4,Awesome Openclaw Tips,https://github.com/alvinreal/awesome-openclaw-tips#mem-01-make-your-agent-learn-from-its-mistakes,,github,Prompts and collections,Collections,,,,,,34ddaecf-ce6b-80f3-a174-c0e1573091f6,2026-09-09
+a868fe0d,Design Director Agent,https://x.com/kloss_xyz/status/2023142088850944283,,x,Prompts and collections,Prompts,Full Design Agency Replacement (by @kloss_xyz),,,,also in: Field notes / Design Director agent,32fdaecf-ce6b-80ec-9d19-dbfb25eaf769,2026-09-09
+404c717a,Mission Control Dashboard,https://x.com/kloss_xyz/status/2022461932759060993,,x,Prompts and collections,Prompts,JARVIS-Style AI Command Center (@kloss_xyz),,,,,32fdaecf-ce6b-8046-b020-e2435f453109,2026-09-09
+cb09116d,Sort,https://gist.github.com/mberman84/065631c62d6d8f30ecb14748c00fc6d9,,site,Prompts and collections,Prompts,,,,,,31fdaecf-ce6b-8032-9ccf-e75c7a3eb8e6,2026-09-09
+79606a5c,Moltworker,https://github.com/cloudflare/moltworker,https://www.digitalocean.com/community/tutorials/how-to-run-openclaw,github,Security,,Alternative to own security setup - use DigitalOcean’s managed deployment or Cloudflare’s. It handles the hard parts automatically.,,,,,32cdaecf-ce6b-80c0-ad09-f6d4c8f10227,2026-09-09
+20ec7bff,"Nemoclaw (Link, Discord Nemo channel)",https://www.nvidia.com/en-us/ai/nemoclaw,,site,Security,,,,,,,32cdaecf-ce6b-8023-86de-d2d64a9d1497,2026-09-09
+1edee517,OpenClaw Docs,https://docs.openclaw.ai/security,,site,Security,,Security,,,,,32cdaecf-ce6b-8047-9568-d0f7957bcacc,2026-09-09
+b89be524,YouTube video jw_o0xr8MWU,https://www.youtube.com/watch?v=jw_o0xr8MWU&t=2647s,,youtube,Security,,,,,,name-from-url,33adaecf-ce6b-80c6-a6b8-f7195bf9053d,2026-09-09
+8d062575,clawdhub.com/JimLiuxinghai,https://clawdhub.com/JimLiuxinghai/find-skills,,site,Skills,General,clawdhub.com/JimLiuxinghai/find-skills - Auto-discovers & installs skills on demand,,,,name-from-url,332daecf-ce6b-80c7-8e62-d32cdc305460,2026-09-09
+5670176a,Skill graphs,https://x.com/arscontexta/status/2023957499183829467,,x,Skills,General,,,,,,332daecf-ce6b-80c9-a2f2-d11c7fc076fe,2026-09-09
+2120c060,X article,https://x.com/jordymaui/status/2027067341280891204,,x,Skills,General,Kickstart - skill that will implement core things,,,,,332daecf-ce6b-80e1-9974-c4a33390a09d,2026-09-09
+1883d658,Larry,https://x.com/oliverhenry/status/2023776478446436696,https://www.larrybrain.com https://www.larryloop.com,x,Skills,Image & Video generation,"Tik Tok Video making skill on LarryBrain, now as standalone app on LarryLoop (article 2)",,,,,332daecf-ce6b-8006-8828-fe146a9324e5,2026-09-09
+00da685e,7 Openclaw skills for Paid Media,https://www.get-ryze.ai/blog/openclaw-google-meta-ads-guide,,site,Skills,"Marketing, Ads & SEO",,,,,,332daecf-ce6b-805d-b632-c363c5fa5bc8,2026-09-09
+328662d7,supermemoryai/clawbot-supermemory,https://github.com/supermemoryai/clawbot-supermemory,,github,Skills,Memory,github.com/supermemoryai/clawbot-supermemory - Unlimited memory for the agent,,,,name-from-url,332daecf-ce6b-80cb-b263-f4c98959b81a,2026-09-09
+01e478ba,Last30days,https://github.com/mvanhorn/last30days-skill,,github,Skills,Research,"useful for content/marketing, researches topics across Reddit, X, YouTube, HN, and Polymarket from the last 30 days, then synthesizes findings and can generate copy-paste prompts",,,,,332daecf-ce6b-80fd-be6b-cab3bed975bd,2026-09-09
+4d40f3b4,clawdhub.com/peterokase42/dont-hack-me - Security self-check,https://clawdhub.com/peterokase42/dont-hack-me,,site,Skills,Security,,,,,,332daecf-ce6b-8026-8d7d-dcabfdf625e4,2026-09-09
+e892b5fd,clawdhub.com/seojoonkim,https://clawdhub.com/seojoonkim/prompt-guard,,site,Skills,Security,clawdhub.com/seojoonkim/prompt-guard - Advanced prompt injection defense,,,,name-from-url,332daecf-ce6b-80e2-8c90-f83f4f8e9d33,2026-09-09
+bdb9495f,Clawhub,https://clawhub.ai/skills?sort=downloads,,site,Skills,Skill platforms,,,,,,344daecf-ce6b-8095-bcc7-e42d68c22ac4,2026-09-09
+1440c17d,github.com/levineam/qmd-skill - Cuts token usage by 95%,https://github.com/levineam/qmd-skill,,github,Skills,Token Efficiency,,,,,,332daecf-ce6b-808d-9911-d225a53e322c,2026-09-09
+afd5afe0,morning brief,https://www.youtube.com/watch?v=04wh2Hlgbds&t=572,,youtube,Use cases,,,,,,,32cdaecf-ce6b-8057-bf70-d1d8c31e5570,2026-09-09
+aebab35b,Repo with use cases,https://github.com/hesamsheikh/awesome-openclaw-usecases,https://x.com/meta_alchemist/status/2028606379486044290,github,Use cases,,,,,,,32cdaecf-ce6b-80ca-8eea-ffc70355415b,2026-09-09

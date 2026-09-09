@@ -1,0 +1,269 @@
+{
+ "_about": "Hand fixes keyed by entry id (data/links.csv) or, under _notes, by Notion block id (data/notes.json). Only names, descriptions, urls and hides - every _why says what was wrong. Descriptions are Matt's own words where he wrote any, otherwise the source's own summary.",
+ "3557eddc": {
+  "name": "Environment variables (OpenClaw docs)",
+  "description": "Where to store API keys and secrets: give OpenClaw access to environment variables by putting them in .openclaw/.env.",
+  "_why": "the link text was the tail of the sentence ('put them in .openclaw/.env'); name from the docs page, description is the full bullet"
+ },
+ "4758c15d": {
+  "name": "Context7",
+  "description": "Set up a help project with the OpenClaw documentation from Context7 so the agent reads current docs instead of guessing.",
+  "_why": "the link text was the sentence without its last word; the bullet itself is the description"
+ },
+ "1f2a33ae": {
+  "name": "Self-Improving Agent skill (Corey Ganim on X)",
+  "_why": "Notion label was 'Self-improving skill'; the post names the skill"
+ },
+ "2ec5d0c3": {
+  "name": "OpenClaw setup guide: build your personal AI agent (Claire Vo, Lenny's Newsletter)",
+  "_why": "bookmark block without text; page title plus author, the guide the Multi-agent blurb refers to"
+ },
+ "1b00bf43": {
+  "name": "If you installed OpenClaw this week, read this (r/clawdbot)",
+  "description": "Reddit thread addressed to people who installed OpenClaw this week - the bookmark sits next to my first-week notes.",
+  "_why": "Reddit shows bots only the word 'Reddit'; name from the post slug, description from where it sits in Notion"
+ },
+ "df7b78aa": {
+  "name": "Brave Search API",
+  "_why": "page title carried the '| Brave' suffix"
+ },
+ "81cb27d7": {
+  "name": "Web search tools (OpenClaw docs)",
+  "_why": "name was derived from the URL"
+ },
+ "026f3dbf": {
+  "name": "Telegram channel setup (OpenClaw docs)",
+  "_why": "Notion label was 'Set up Telegram guide here'"
+ },
+ "696f218f": {
+  "name": "Setting up OpenClaw properly, not just install and chat (Corey Ganim on X)",
+  "_why": "name was the author only; the first line of the post says what it is"
+ },
+ "79d4456b": {
+  "hide": true,
+  "_why": "the post carries only a t.co link and Matt left no note - nothing to describe honestly (Ernesto Lopez on X)"
+ },
+ "fecb450d": {
+  "name": "The ultimate guide to OpenClaw - 1 hour free masterclass (Greg Isenberg on X)",
+  "description": "Greg Isenberg's thread: fix memory so it compounds (MEMORY.md plus daily logs, promote important learnings), then the rest of his one-hour masterclass.",
+  "_why": "name was the author in capitals; description is the post's own first lines in sentence case"
+ },
+ "d99fa837": {
+  "name": "How to set up Clawdbot for Google Ads and Meta Ads (get-ryze.ai)",
+  "description": "A practical guide for marketers who want an AI assistant managing their ad accounts: pull reports, analyze data and automate Google Ads and Meta Ads tasks over text messages. Clawdbot is OpenClaw's old name.",
+  "_why": "the Notion block was a pasted message that started with 'Hey, how's it going?'; name and description are the article's own"
+ },
+ "db3549d0": {
+  "name": "Claude Code as a personal OS - setup with Moritz Kremb (Peter Yang on LinkedIn)",
+  "description": "Peter Yang's video post with Moritz Kremb, captioned 'this is the most complete setup I've seen'. Filed under my OpenClaw learning material although the walkthrough is Claude Code as a personal OS.",
+  "_why": "LinkedIn gives crawlers a truncated caption; name from the post title, description from the caption plus where it sits"
+ },
+ "71a72271": {
+  "hide": true,
+  "_why": "the post carries only a t.co link and Matt's only label is the word 'mistakes' - not enough to describe it (klöss on X)"
+ },
+ "854f9d96": {
+  "name": "OpenClaw install checklist (Moritz Kremb on X)",
+  "description": "Moritz Kremb's install checklist, posted on X - the post itself is just a link. The same Moritz as in the 'I fixed OpenClaw so it actually works' video.",
+  "_why": "Matt's label 'Install checklist' sits in the paragraph above the link in Notion, so the sync could not attach it"
+ },
+ "3950fb91": {
+  "name": "I rebuilt my entire life OS with OpenClaw (r/OpenClawUseCases)",
+  "description": "Reddit thread by someone who rebuilt their whole personal 'life OS' on OpenClaw - the first link under my best-practices notes.",
+  "_why": "Reddit shows bots only the word 'Reddit'; name from the post slug, description from where it sits in Notion"
+ },
+ "d8f4bfcc": {
+  "hide": true,
+  "_why": "the post carries only a t.co link and Matt left no note - nothing to describe honestly (Ryan Carson on X)"
+ },
+ "e01d5376": {
+  "name": "How to build an entire OpenClaw agent in less than one day (0xMarioNawfal on X)",
+  "description": "Thread embedded under my Learning toggle: here's how to build an entire OpenClaw agent in less than one day.",
+  "_why": "name was the author only and the post text is in capitals"
+ },
+ "dd70d505": {
+  "hide": true,
+  "_why": "the post carries only a t.co link and Matt left no note - nothing to describe honestly (Kevin Simback on X)"
+ },
+ "8f259406": {
+  "name": "Local heartbeat with a local model (Instagram post)",
+  "description": "Run the heartbeat locally with a local model - an Instagram post I saved under token burn; the platform shows crawlers nothing, my note on it is in the field notes.",
+  "_why": "Notion text was 'localite heartbeat and use local model for it'; Instagram exposes no text to a crawler"
+ },
+ "cb5f4322": {
+  "name": "GPT 5.4 in OpenClaw: the settings to change (r/openclaw)",
+  "description": "The r/openclaw thread behind the wave of 'GPT 5.4 sucks in OpenClaw' posts - when you switch, change the settings it lists.",
+  "_why": "Notion text was 'when switching do these settings'; Reddit shows bots only the word 'Reddit', name from the post slug"
+ },
+ "156937e0": {
+  "name": "GPT 5.5: how to switch (Tak on X)",
+  "_why": "Notion text was 'how to switch'; the post text is the description"
+ },
+ "60dfeee2": {
+  "name": "The Claw Bay",
+  "description": "Opus and Codex through one reseller key? (my open question) - their own pitch: one API key for GPT-6, Codex, Claude and Gemini access with low-latency EU and US routing.",
+  "_why": "Notion text was 'Opus & Codex? (Reddit Post)'; the question mark is Matt's, the rest is the site's own description"
+ },
+ "1edee517": {
+  "url": "https://docs.openclaw.ai/gateway/security",
+  "name": "Security (OpenClaw docs)",
+  "description": "The official security page: trust model, safe defaults and hardening guidance for running OpenClaw.",
+  "_why": "/security is a meta-refresh redirect to /gateway/security; name and description from the target page"
+ },
+ "b1be0b52": {
+  "name": "Sub-agents (OpenClaw docs)",
+  "description": "The official page on sub-agents: spawn isolated background agent runs that announce results back to the requester chat.",
+  "_why": "the link text was 'OpenClaw Doc'; description from the page"
+ },
+ "ff0ca753": {
+  "name": "Link for agents (Stripe)",
+  "description": "Wallet for agents by Stripe: let your agent pay online with one-time-use cards or machine payment protocols, and you approve every request. The tweet that announced it is linked too.",
+  "_why": "the link text 'Link' is also a pointer word; description is Matt's note plus the page's own summary"
+ },
+ "afec170f": {
+  "name": "OpenClaw on Amazon EC2 - the cheapest and easiest setup (video)",
+  "description": "Ubuntu on a c7iflex.large instance with 30 GB - the video tutorial for the EC2 route ('ClawdBot is a 24/7 AI agent employee... here's how to set it up cheap and easy').",
+  "_why": "Notion text was the parenthetical spec list; video title added"
+ },
+ "6d996c4a": {
+  "url": "https://www.hostinger.com/applications/openclaw",
+  "name": "OpenClaw on a Hostinger VPS",
+  "description": "The VPS route: KVM2 plan with Ubuntu 24.04 LTS, get in over SSH as root and install from there. Hostinger's page has a one-click Docker template; the video tutorial is linked as well.",
+  "_why": "the Notion link redirects to the applications page; the sync dropped the word Hostinger from the sentence when it took it as the name"
+ },
+ "5b80fbb8": {
+  "name": "CLAW3D",
+  "_why": "name was derived from the URL"
+ },
+ "832c8f7e": {
+  "url": "https://agentsidehustleschool.com",
+  "name": "Agent Side Hustle School",
+  "_why": "the Notion link carried a '?mode=human' query; the root page is the same"
+ },
+ "cb09116d": {
+  "name": "OpenClaw implementation prompts (Matthew Berman's gist)",
+  "description": "Each prompt is a self-contained brief you can hand to an AI coding assistant, or use as a project spec, to build that use case from scratch - it starts with a personal CRM.",
+  "_why": "Notion text was 'Sort'; name and description from the gist's own header"
+ },
+ "404c717a": {
+  "description": "JARVIS-style AI command center, plus the Jarvis initialization sequence: 8 prompts to configure your OpenClaw agent (both in the same post by @kloss_xyz).",
+  "_why": "two Notion bullets link this one post; the second bullet's text was lost in the merge"
+ },
+ "79606a5c": {
+  "name": "Moltworker (Cloudflare)",
+  "description": "Alternative to your own security setup: use DigitalOcean's managed deployment or Cloudflare's Moltworker - it handles the hard parts automatically.",
+  "_why": "the sync cut the repo name out of the sentence, leaving \"Cloudflare's.\""
+ },
+ "20ec7bff": {
+  "name": "NemoClaw (NVIDIA)",
+  "_why": "Notion title was 'Nemoclaw (Link, Discord Nemo channel)'; the Discord link is excluded"
+ },
+ "b89be524": {
+  "name": "NVIDIA GTC keynote 2026 (from 44:07)",
+  "description": "Jensen Huang's GTC 2026 keynote, linked at 44:07 under my NemoClaw notes.",
+  "_why": "name was derived from the URL; the timestamp in the link is the point"
+ },
+ "8d062575": {
+  "url": "https://clawhub.ai/JimLiuxinghai/skills/find-skills",
+  "name": "find-skills (ClawHub)",
+  "description": "Auto-discovers and installs skills on demand.",
+  "_why": "clawdhub.com redirects to clawhub.ai; the Notion bullet started with the URL"
+ },
+ "5670176a": {
+  "hide": true,
+  "_why": "the post carries only a t.co link and Matt's only label is 'Skill graphs' - not enough to describe it (Heinrich / @arscontexta on X)"
+ },
+ "2120c060": {
+  "name": "Kickstart",
+  "description": "Skill that will implement the core things - an X post by @jordymaui (the post itself is a link).",
+  "_why": "the link text was 'X article'; Matt's bullet was 'Kickstart - skill that will implement core things'"
+ },
+ "1883d658": {
+  "url": "https://www.larrybrain.com",
+  "also_urls": [
+   "https://www.larryloop.com",
+   "https://x.com/oliverhenry/status/2023776478446436696"
+  ],
+  "name": "Larry (LarryBrain)",
+  "description": "TikTok video-making skill on LarryBrain, now also a standalone app on LarryLoop - the X post is the announcement.",
+  "_why": "the sync took the X post as primary; the product site is the stable home"
+ },
+ "00da685e": {
+  "name": "7 OpenClaw skills for paid media (get-ryze.ai)",
+  "_why": "capitalization only"
+ },
+ "328662d7": {
+  "url": "https://github.com/supermemoryai/openclaw-supermemory",
+  "name": "openclaw-supermemory",
+  "description": "Unlimited memory for the agent - long-term memory and recall for your OpenClaw agent through Supermemory.",
+  "_why": "clawbot-supermemory is gone (404); the same project lives at openclaw-supermemory - Matt's note plus the repository's own description"
+ },
+ "4d40f3b4": {
+  "url": "https://clawhub.ai/peterokase42/skills/dont-hack-me",
+  "name": "dont-hack-me (ClawHub)",
+  "description": "Security self-check: a quick audit of your config to catch dangerous misconfigurations such as an exposed gateway.",
+  "_why": "clawdhub.com redirects to clawhub.ai; the page description starts in Chinese"
+ },
+ "e892b5fd": {
+  "url": "https://clawhub.ai/seojoonkim/skills/prompt-guard",
+  "name": "prompt-guard (ClawHub)",
+  "description": "Advanced prompt injection defense - 650+ patterns covering prompt injection, supply chain injection, memory poisoning and more.",
+  "_why": "clawdhub.com redirects to clawhub.ai; Matt's note plus the page's own summary"
+ },
+ "bdb9495f": {
+  "name": "ClawHub",
+  "_why": "capitalization only"
+ },
+ "1440c17d": {
+  "name": "qmd-skill",
+  "description": "Token-efficiency skill; my note says it cuts token usage by 95%. The repository has no description of its own.",
+  "_why": "the Notion bullet started with the URL and GitHub has no description for the repo"
+ },
+ "afd5afe0": {
+  "name": "Morning brief (video chapter, from 9:32)",
+  "description": "The morning-brief chapter of the EC2 setup video, starting at 9:32 - saved as a use case.",
+  "_why": "Notion text was 'morning brief (video)'; the same video as the EC2 tutorial, deep-linked"
+ },
+ "aebab35b": {
+  "name": "awesome-openclaw-usecases",
+  "_why": "Notion text was 'Repo with use cases'; the repository description says the rest"
+ },
+ "_notes": {
+  "349daecf-ce6b-80fe-ada0-c8656fbb71e0": {
+   "text": "The URL (127.0.0.1:18789) - stable. The port (18789) is chosen once during onboarding and sticks across restarts. Regenerable with openclaw dashboard or openclaw status anytime. No need to save - just bookmark in your browser for convenience.",
+   "_why": "same sentence without the http:// scheme (a loopback address is not a link)"
+  },
+  "34ddaecf-ce6b-8031-b5c9-d41fd105064a": {
+   "text": "NeptrixAI - free tool that just adds that little bit more protection on top of everything",
+   "_why": "typo fix (ree)"
+  },
+  "32cdaecf-ce6b-80af-9609-e8f5c435ed94": {
+   "text": "Spin off the captains relatively soon so they can already start building the context",
+   "_why": "typo fix (realtively)"
+  },
+  "32cdaecf-ce6b-80c5-a1db-de39e49f9700": {
+   "text": "maxSpawnDepth can create three-level hierarchy, with configurable depth limits and tool policies",
+   "_why": "typo fix (toool)"
+  },
+  "32cdaecf-ce6b-8041-bb40-e58f71877b87": {
+   "text": "create AGI score - what would you do to increase from 1 to 3.7 e.g.",
+   "_why": "typo fix (screate)"
+  },
+  "32cdaecf-ce6b-805a-8b7e-d4f7f0f3753c": {
+   "text": "OpenClaw - switch models programmatically - switch based on rules?",
+   "_why": "typo fix (programatically)"
+  },
+  "349daecf-ce6b-809e-82fd-dd273d3c3e2e": {
+   "text": "workspace folder usually .openclaw/[agent_name]-workspace",
+   "_why": "stray closing parenthesis dropped"
+  },
+  "349daecf-ce6b-8079-93f4-f20aa445edd5": {
+   "text": "BUN - all three work, but they're not equal on a Mac Mini running OpenClaw as a persistent agent host:",
+   "_why": "punctuation only: 'BUN' is the pick, the sentence follows it"
+  },
+  "32cdaecf-ce6b-80dd-98e1-eae8d1e74dae": {
+   "text": "gemini light - extremely cheap, has context window 1M tokens, every 15 mins Gemini light reads all convo & backs info, Gemini = temporary memory, OpenClaw can, forced before any question to check whether this info was already answered",
+   "_why": "unfinished trailing fragment ('- red') dropped, the sentence is Matt's as written"
+  }
+ }
+}

@@ -1,0 +1,1243 @@
+{
+ "generated_by": "scripts/awesome-sync.py",
+ "sections": {
+  "Field notes": {
+   "General": [
+    {
+     "block_id": "32cdaecf-ce6b-801a-94af-f66be36a24ee",
+     "type": "toggle",
+     "depth": 0,
+     "text": "General"
+    },
+    {
+     "block_id": "349daecf-ce6b-8078-980a-c3f6f22a0c6c",
+     "type": "bullet",
+     "depth": 1,
+     "text": "update openclaw via openclaw update in terminal and then restart the gateway openclaw service restart"
+    },
+    {
+     "block_id": "349daecf-ce6b-809e-82fd-dd273d3c3e2e",
+     "type": "bullet",
+     "depth": 1,
+     "text": "workspace folder usually .openclaw/[agent_name]-workspace)"
+    },
+    {
+     "block_id": "34bdaecf-ce6b-80fd-b87f-f57a48b1ba1e",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Tools.md"
+    },
+    {
+     "block_id": "34bdaecf-ce6b-802b-8e94-cbeebf57b945",
+     "type": "bullet",
+     "depth": 1,
+     "text": "rules on how its allowed to communicate with outside world"
+    }
+   ],
+   "Don'ts": [
+    {
+     "block_id": "34ddaecf-ce6b-80cb-8a11-f76cf300a3f6",
+     "type": "toggle",
+     "depth": 0,
+     "text": "DON'T: auto-update without checking the changelog"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-8088-b25e-ef950416f8a1",
+     "type": "bullet",
+     "depth": 1,
+     "text": "This is the mistake experienced users make. OpenClaw updates 2-3 times a week. Some updates break things. if you auto-update overnight, you might wake up to a broken setup with no idea what changed."
+    },
+    {
+     "block_id": "34ddaecf-ce6b-80c6-b5fc-cf47f97cc664",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Either pin your version and update manually when you're ready, or at minimum read the changelog before letting updates through."
+    }
+   ],
+   "Anatomy of the workspace files": [
+    {
+     "block_id": "32cdaecf-ce6b-8067-a220-d4bc18610073",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Anatomy"
+    },
+    {
+     "block_id": "349daecf-ce6b-802c-86b4-e3fb67164fe8",
+     "type": "bullet",
+     "depth": 1,
+     "text": "AGENTS.md - OpenClaw’s core set of instructions and memory"
+    },
+    {
+     "block_id": "349daecf-ce6b-8028-872e-f54e345cbf38",
+     "type": "bullet",
+     "depth": 1,
+     "text": "SOUL.md - Your agent’s persona, tone of voice, and clear boundaries"
+    },
+    {
+     "block_id": "349daecf-ce6b-8035-b074-e8ddcc051640",
+     "type": "bullet",
+     "depth": 1,
+     "text": "IDENTITY.md - Your agent’s name, vibe, and personal emoji"
+    },
+    {
+     "block_id": "349daecf-ce6b-8036-877e-c5ad06daed59",
+     "type": "bullet",
+     "depth": 1,
+     "text": "TOOLS.md - Notes on tools and how your agent should use them"
+    },
+    {
+     "block_id": "349daecf-ce6b-8060-8232-dee16e1c4111",
+     "type": "bullet",
+     "depth": 1,
+     "text": "USER.md - All about you, your OpenClaw’s human"
+    },
+    {
+     "block_id": "30cdaecf-ce6b-80b9-8389-e5241281c28f",
+     "type": "text",
+     "depth": 1,
+     "text": "cheat sheet for openclaw anatomy"
+    },
+    {
+     "block_id": "30cdaecf-ce6b-80a9-979a-e846b68b95c2",
+     "type": "quote",
+     "depth": 1,
+     "text": "SOUL md: personality, behavior and boundaries\nIDENTITY md: agent's name and role\nUSER md: who you are and your preferences\nAGENTS md: operating instructions and rules to follow\nTOOLS md: apps, websites, APIs, etc.\nMEMORY md: remembering decisions, lessons learned, etc.\nSKILLS md: how to do something\nHEARTBEAT md: instructions to periodically wake up and do something\ncron jobs: instructions to wake up at a specific scheduled time to do something"
+    },
+    {
+     "block_id": "30cdaecf-ce6b-804f-8e63-ef91c7a7f367",
+     "type": "text",
+     "depth": 1,
+     "text": "reference these files when you want to make clean changes."
+    },
+    {
+     "block_id": "30cdaecf-ce6b-80d9-9923-d1d70bf9160b",
+     "type": "text",
+     "depth": 1,
+     "text": "examples:"
+    },
+    {
+     "block_id": "30cdaecf-ce6b-8030-b6d8-ea124af11c7c",
+     "type": "text",
+     "depth": 1,
+     "text": "\"update your tools to include agentmail\"\n\"update your agents file to always ping me before sending an email\"\n\"update your memory so you always remember to sign an email as my assistant and not as me\"\n\"add a heartbeat to check for email responses periodically throughout the day\"\n\"create a cron job to send me an email report at 9am sharp every day\""
+    }
+   ],
+   "Self-improving": [
+    {
+     "block_id": "32cdaecf-ce6b-80f9-829a-d46244ec60bd",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Self-improving"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-80f1-850c-d5949860e761",
+     "type": "bullet",
+     "depth": 1,
+     "text": "brain analogy for learning? best research from smartest people - create a AGI component - script/mathematical function/rule/knowledge, turn into hierarchy as a brain, connect as mycelium connects infra, Metta language as comms methodology - duality of data (additional informational layer), assumption that is fastest information transfer"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-8041-bb40-e58f71877b87",
+     "type": "bullet",
+     "depth": 1,
+     "text": "screate AGI score - what would you do to increase from 1 to 3.7 e.g."
+    }
+   ],
+   "SOUL.md": [
+    {
+     "block_id": "32cdaecf-ce6b-8079-ba2d-ef8d2e19f7f9",
+     "type": "toggle",
+     "depth": 0,
+     "text": "SOUL.MD"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-8075-82d1-efc040cddb42",
+     "type": "bullet",
+     "depth": 1,
+     "text": "reinforce security rules and principles"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-8056-b5b1-ff05d0895430",
+     "type": "bullet",
+     "depth": 1,
+     "text": "rules on how its allowed to communicate with outside world"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-8026-bf6b-ce572593de67",
+     "type": "bullet",
+     "depth": 1,
+     "text": "add “never do X” directly in SOUL"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-8064-9acb-ddd28d1b0027",
+     "type": "code",
+     "depth": 1,
+     "text": "Never send emails, messages, or make bookings without showing me first.\nNever sign up for services without my explicit approval.\nNever delete files or emails without asking.",
+     "language": "plain text"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-803c-af22-fbd70e6db1f0",
+     "type": "code",
+     "depth": 1,
+     "text": "you are [agent name]. you assist [your name].\n\nbe direct. no filler. match my tone.\nif I ask a question, answer it first. then elaborate only if needed.\nnever say \"absolutely\", \"great question\", or \"I'd be happy to.\"\nif you don't know something, say so. don't guess.\nif a task will cost significant tokens, tell me before doing it.",
+     "language": "plain text"
+    }
+   ],
+   "Gamification": [
+    {
+     "block_id": "32cdaecf-ce6b-8008-96ed-e78aba76484f",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Gamification"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-8053-a939-cdaa71fef868",
+     "type": "bullet",
+     "depth": 1,
+     "text": "if failed task - penalized, if successful then getting score"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-801c-8409-dac6678db716",
+     "type": "bullet",
+     "depth": 1,
+     "text": "prioritization system - devclock - concept that all scripts etc are scored based on relevancy and quality, 72 hours to reach score otherwise rebuilt,"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-8073-83fd-ee79d1fb529b",
+     "type": "bullet",
+     "depth": 1,
+     "text": "score - combination of prioritization (context) and quality/potential of information"
+    }
+   ],
+   "Skill design best practices": [
+    {
+     "block_id": "d447d158-b91e-4228-9d84-44151a120e5f",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Include negative examples in skills (recovers ~20% accuracy)"
+    },
+    {
+     "block_id": "40bde330-81ae-427b-a58b-09cd3de351db",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Skills = markdown = installers - treat with same caution as code"
+    },
+    {
+     "block_id": "9c43e81d-a4e6-4ca6-9748-5efcdae82b91",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Always vet skills before installing (check source, read content)"
+    },
+    {
+     "block_id": "49bcf228-f736-4794-8bdd-1392f4a2b74a",
+     "type": "bullet",
+     "depth": 1,
+     "text": "The SKILL.md format is portable across agents"
+    }
+   ],
+   "Design Director agent": [
+    {
+     "block_id": "99512ea2-8eff-44a5-826c-9adbc47de790",
+     "type": "text",
+     "depth": 1,
+     "text": "A complete system prompt for an autonomous design director that replaces external agencies. Key innovations:"
+    },
+    {
+     "block_id": "37338def-521a-4ce2-9fdc-33852d4a3548",
+     "type": "bullet",
+     "depth": 1,
+     "text": "8 sub-agents covering visual identity, UI/UX, design systems, motion, creative direction, typography, research, and dev handoff"
+    },
+    {
+     "block_id": "d74c455b-9c59-4f19-aa96-6cbc0b57face",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Self-learning pipeline: extracts references (30-50 per source), mines viral AI image prompts from X, ingests YouTube tutorials via Gemini"
+    },
+    {
+     "block_id": "4c0dfecf-577a-40dc-8cda-2305e48d2f16",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Full automation: Idea → References → Principles → Tokens → Figma → Assets → Review → Framer → Live → Learn"
+    },
+    {
+     "block_id": "20454899-f941-471b-b67b-840ba7f80da6",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Anti-AI-slop constraints: bans generic fonts, purple gradients, stock aesthetics, cookie-cutter layouts"
+    },
+    {
+     "block_id": "a8d1b708-2328-4d4b-8f99-c15e2b95f722",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Tool integrations: Figma MCP, Framer, Gemini (transcription + Nano Banana Pro image gen), X search"
+    },
+    {
+     "block_id": "c0678435-3c5c-4e6e-87cd-ebe405331ed5",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Figma mastery tracking: 5-level progression system with per-skill proficiency notes"
+    }
+   ]
+  },
+  "Install and first week": {
+   "": [
+    {
+     "block_id": "349daecf-ce6b-80ff-8322-ffdee5691fba",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Install Guide"
+    },
+    {
+     "block_id": "349daecf-ce6b-8045-ba37-c1ef60451e15",
+     "type": "bullet",
+     "depth": 1,
+     "text": "restart onboarding with openclaw onboard"
+    },
+    {
+     "block_id": "349daecf-ce6b-80e0-be14-f1ddafdc62f8",
+     "type": "bullet",
+     "depth": 1,
+     "text": "select with space, confirm with enter"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-808b-9a5a-ea6234acd686",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Initial setup"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-8023-afed-f80ffce2c528",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Read BOOTSTRAP.md and walk me through it"
+    }
+   ],
+   "Model choice": [
+    {
+     "block_id": "349daecf-ce6b-8098-820f-f15388387813",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Model choice"
+    },
+    {
+     "block_id": "349daecf-ce6b-80c1-9797-efde0cf7ff1b",
+     "type": "text",
+     "depth": 1,
+     "text": "use OpenAI Codex for Oauth"
+    }
+   ],
+   "Channel choice": [
+    {
+     "block_id": "349daecf-ce6b-8059-9c60-f8ba2f86f37e",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Channel choice"
+    }
+   ],
+   "Browser choice": [
+    {
+     "block_id": "349daecf-ce6b-8019-9e9a-d137d94a00ae",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Browser choice"
+    },
+    {
+     "block_id": "349daecf-ce6b-80c4-8501-c9c9083e0bf5",
+     "type": "text",
+     "depth": 1,
+     "text": "My pick: Brave Search."
+    },
+    {
+     "block_id": "349daecf-ce6b-806a-b530-e129b9cd7055",
+     "type": "text",
+     "depth": 1,
+     "text": "Three reasons:"
+    },
+    {
+     "block_id": "349daecf-ce6b-806f-8bf0-e69583b59b48",
+     "type": "numbered",
+     "depth": 1,
+     "text": "You already have the filters you need. Brave's API returns structured results with country/language/time filters built in - which matters for Agentmatik's Central European SME work where you'll want to scope queries to CZ/DE/AT/PL locales and recent dates."
+    },
+    {
+     "block_id": "349daecf-ce6b-80fb-8304-f15c40f1c8bb",
+     "type": "numbered",
+     "depth": 1,
+     "text": "Generous free tier, clean billing. 2,000 queries/month free, then pay-per-query with no subscription floor. Exa, Tavily, and Perplexity are all more expensive per call and Perplexity especially gets pricey fast if your agent is chatty."
+    },
+    {
+     "block_id": "349daecf-ce6b-80d2-bd8e-fa99030cea39",
+     "type": "numbered",
+     "depth": 1,
+     "text": "Independent index. Brave crawls its own web, so it's not gated behind Google/Bing rate limits or ToS. That matters when you're running this on a Mac Mini that might sit idle for a week then burst-query during a standup pipeline run."
+    },
+    {
+     "block_id": "349daecf-ce6b-8054-9fb8-d021d39dca1b",
+     "type": "text",
+     "depth": 1,
+     "text": "The tradeoffs to know:"
+    },
+    {
+     "block_id": "349daecf-ce6b-80bc-a048-cdec711728c9",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Exa Search is better if your agent will mostly do semantic/research queries (\"find papers similar to this one\"). For chat-agent \"what's the latest on X\" stuff, Brave is better."
+    },
+    {
+     "block_id": "349daecf-ce6b-8055-a874-fc8addc6cfcb",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Gemini (Google Search) grounds through Google's index, which has the best recency for breaking news - but it ties this tool to Google billing, adds another credential to manage, and you already have Gemini configured elsewhere in your stack via Vertex plans."
+    },
+    {
+     "block_id": "349daecf-ce6b-805e-b556-ce0d9cf3fa22",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Tavily is LLM-optimized (returns summaries, not raw SERPs) and is what a lot of the agentic-AI tutorials default to - but it's the priciest of the bunch and the summarization layer can flatten nuance you'd want Claude to judge itself."
+    },
+    {
+     "block_id": "349daecf-ce6b-80a6-85ba-f34a36092e89",
+     "type": "bullet",
+     "depth": 1,
+     "text": "SearXNG is the key-free option if you want to self-host a meta-search aggregator. Good long-term for cost control, but more infra to run - skip for now, add later if Brave costs get out of hand."
+    }
+   ],
+   "Skill choice": [
+    {
+     "block_id": "349daecf-ce6b-804b-be70-de80251cfb91",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Skill choice"
+    },
+    {
+     "block_id": "349daecf-ce6b-806c-ad21-d251f17f9df4",
+     "type": "text",
+     "depth": 1,
+     "text": "run openclaw doctor to review skills + requirements"
+    },
+    {
+     "block_id": "349daecf-ce6b-8094-9e37-da97b6006ae2",
+     "type": "bullet",
+     "depth": 1,
+     "text": "1password"
+    },
+    {
+     "block_id": "349daecf-ce6b-80f7-bdd0-f0e9bf702138",
+     "type": "bullet",
+     "depth": 1,
+     "text": "clawhub"
+    },
+    {
+     "block_id": "349daecf-ce6b-807d-a44a-d54f5e56a341",
+     "type": "bullet",
+     "depth": 1,
+     "text": "gog"
+    },
+    {
+     "block_id": "349daecf-ce6b-80e3-a040-dd92cb1f385c",
+     "type": "bullet",
+     "depth": 1,
+     "text": "model usage"
+    },
+    {
+     "block_id": "349daecf-ce6b-803d-9293-c6865364807e",
+     "type": "bullet",
+     "depth": 1,
+     "text": "nano-pdf"
+    },
+    {
+     "block_id": "349daecf-ce6b-8033-8ef8-df78c1ecda42",
+     "type": "bullet",
+     "depth": 1,
+     "text": "sag"
+    },
+    {
+     "block_id": "349daecf-ce6b-8000-a983-d9feadef3b24",
+     "type": "bullet",
+     "depth": 1,
+     "text": "things-mac"
+    },
+    {
+     "block_id": "349daecf-ce6b-8003-97d5-ca0ae3f8de0e",
+     "type": "bullet",
+     "depth": 1,
+     "text": "wacli - send whatsapp messages"
+    },
+    {
+     "block_id": "349daecf-ce6b-8069-9e1a-f01b3edccbd9",
+     "type": "bullet",
+     "depth": 1,
+     "text": "xurl - CLI too for making authenticated requests to X api"
+    }
+   ],
+   "Skill package manager": [
+    {
+     "block_id": "349daecf-ce6b-8039-8cbb-d18fb48f4394",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Skill mode manager"
+    },
+    {
+     "block_id": "349daecf-ce6b-8079-93f4-f20aa445edd5",
+     "type": "text",
+     "depth": 1,
+     "text": "BUN All three work, but they're not equal on a Mac Mini running OpenClaw as a persistent agent host:"
+    },
+    {
+     "block_id": "349daecf-ce6b-8009-a8e8-c33872fc4eca",
+     "type": "bullet",
+     "depth": 1,
+     "text": "bun - fastest installer by a wide margin (native Zig, parallel fetching), smallest disk footprint, runs the skills directly without a separate Node resolution pass. For a machine that'll be installing skills occasionally and then running them often, bun is the clear winner. The only real downside is it's the newest of the three and occasionally a package with weird postinstall scripts misbehaves - but the skills listed here (1password, clawhub, gemini, github, gog, model-usage, nano-pdf, openai-whisper, sag, wacli, xurl) are all well-behaved TypeScript/JS packages that work fine on bun."
+    },
+    {
+     "block_id": "349daecf-ce6b-808f-b483-ccda03d5a65d",
+     "type": "bullet",
+     "depth": 1,
+     "text": "pnpm - good middle ground. Content-addressed store means if you later add more OpenClaw instances (you mentioned wanting OpenClaw on both your main machine and the Mac Mini), shared packages deduplicate across them. Slower than bun on cold installs, faster than npm. Solid conservative pick."
+    },
+    {
+     "block_id": "349daecf-ce6b-80dc-922f-c510637ded94",
+     "type": "bullet",
+     "depth": 1,
+     "text": "npm - safest in the \"nothing weird will happen\" sense, but slowest and the most disk-hungry. Zero reason to pick it unless you're debugging a specific skill install failure that turns out to be a bun/pnpm quirk."
+    },
+    {
+     "block_id": "349daecf-ce6b-803b-9fbb-e1fcef933a6b",
+     "type": "text",
+     "depth": 1,
+     "text": "Can switch anytime"
+    },
+    {
+     "block_id": "349daecf-ce6b-80f3-aa2a-c927fff02279",
+     "type": "code",
+     "depth": 1,
+     "text": "openclaw skills reinstall --package-manager pnpm",
+     "language": "bash"
+    }
+   ],
+   "Hooks choice": [
+    {
+     "block_id": "349daecf-ce6b-8019-b572-ec1e3142d89a",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Hooks choice (turn on all 4)"
+    },
+    {
+     "block_id": "349daecf-ce6b-8017-8d28-e02ddf8a6fc8",
+     "type": "bullet",
+     "depth": 1,
+     "text": "boot-md - Runs BOOT.md in your workspace on every gateway start, injecting persistent operational context (who your agent is, what you're working on) so the agent wakes up in-character."
+    },
+    {
+     "block_id": "349daecf-ce6b-8088-872d-c70421270096",
+     "type": "bullet",
+     "depth": 1,
+     "text": "bootstrap-extra-files - Auto-creates/copies reference files into the workspace on startup, useful for ephemeral environments (containers, fresh VMs) where the workspace isn't durable."
+    },
+    {
+     "block_id": "349daecf-ce6b-8083-a6b7-ecc4f3268026",
+     "type": "bullet",
+     "depth": 1,
+     "text": "command-logger - Logs every shell/tool command the agent runs with args and exit codes, giving you an audit trail of exactly what your agent did and when."
+    },
+    {
+     "block_id": "349daecf-ce6b-806b-9c50-ccc5d4ca6d8d",
+     "type": "bullet",
+     "depth": 1,
+     "text": "session-memory - Persists in-progress conversation threads across gateway restarts so your agent doesn't forget the current thread every time the Mac Mini reboots."
+    }
+   ],
+   "Control UI": [
+    {
+     "block_id": "349daecf-ce6b-800c-b57b-d9b523808dbd",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Control UI"
+    },
+    {
+     "block_id": "349daecf-ce6b-80fe-ada0-c8656fbb71e0",
+     "type": "bullet",
+     "depth": 1,
+     "text": "The URL (http://127.0.0.1:18789/) - Stable. The port (18789) is chosen once during onboarding and sticks across restarts. Regenerable with openclaw dashboard or openclaw status anytime. No need to save - just bookmark in your browser for convenience."
+    },
+    {
+     "block_id": "349daecf-ce6b-808d-972f-c5371d7a0672",
+     "type": "bullet",
+     "depth": 1,
+     "text": "The Token - This is the sensitive bit. It's the auth token that lets anyone on 127.0.0.1 access the Control UI without logging in. Treat it like a password. A few things to know:"
+    },
+    {
+     "block_id": "349daecf-ce6b-80d5-bb40-ca7b75c751f5",
+     "type": "bullet",
+     "depth": 2,
+     "text": "It's already saved - OpenClaw wrote it to ~/.openclaw/openclaw.json (or ~/.openclaw/auth/). You can always regenerate the full URL with openclaw dashboard --with-token, so you never strictly need to copy it elsewhere."
+    },
+    {
+     "block_id": "349daecf-ce6b-8029-b3ab-e25119d6bad5",
+     "type": "bullet",
+     "depth": 2,
+     "text": "It's scoped to 127.0.0.1, so someone would need to be on the Mac Mini (or SSH'd in) to use it. Not a public-internet secret."
+    },
+    {
+     "block_id": "349daecf-ce6b-806c-a98e-cf816fb85a0d",
+     "type": "bullet",
+     "depth": 2,
+     "text": "But - if you use the SSH tunnel pattern from your main machine to reach the dashboard, the token rides over that tunnel. Keep it out of Slack pastes, screenshots you share outside this chat, and git commits."
+    }
+   ],
+   "Uninstall": [
+    {
+     "block_id": "349daecf-ce6b-80ad-b522-cde3c9bb5fee",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Uninstall Openclaw"
+    },
+    {
+     "block_id": "349daecf-ce6b-80d0-a334-d0dcd70844a9",
+     "type": "text",
+     "depth": 1,
+     "text": "Uninstall Openclaw"
+    },
+    {
+     "block_id": "349daecf-ce6b-806c-b0cd-f1c0dd3ae959",
+     "type": "code",
+     "depth": 1,
+     "text": "openclaw uninstall --all --yes --non-interactive",
+     "language": "bash"
+    },
+    {
+     "block_id": "349daecf-ce6b-80c7-b76f-d93c133b27bb",
+     "type": "text",
+     "depth": 1,
+     "text": "Uninstall CLI (Openclaw command itself)"
+    },
+    {
+     "block_id": "349daecf-ce6b-80f9-8f06-d6d9dfe5121a",
+     "type": "code",
+     "depth": 1,
+     "text": "npm rm -g openclaw",
+     "language": "bash"
+    }
+   ],
+   "First week": [
+    {
+     "block_id": "34ddaecf-ce6b-80a2-b7a2-ef91768d1993",
+     "type": "toggle",
+     "depth": 0,
+     "text": "1st week"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-8040-8b10-cd3bfd118796",
+     "type": "bullet",
+     "depth": 1,
+     "text": "day 1-2: set up SOUL.md, have normal conversations, ask it stupid questions, get comfortable"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-806b-8366-dda5fbb3399e",
+     "type": "bullet",
+     "depth": 1,
+     "text": "day 3-4: start using it for real tasks. calendar, reminders, web searches, summarizing articles. the boring stuff."
+    },
+    {
+     "block_id": "34ddaecf-ce6b-80d8-bbef-e78faf28acc7",
+     "type": "bullet",
+     "depth": 1,
+     "text": "day 5-7: refine your SOUL.md based on what annoyed you. check your costs. get a feel for your daily usage."
+    }
+   ],
+   "After week 1": [
+    {
+     "block_id": "34ddaecf-ce6b-8059-b258-f84b2094f073",
+     "type": "toggle",
+     "depth": 0,
+     "text": "After week 1"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-802d-8938-fd836cda1930",
+     "type": "bullet",
+     "depth": 1,
+     "text": "if your agent feels useful, your costs are under $10, and nothing is randomly breaking, you're ready to start experimenting. add web search if you haven't. then a daily briefing skill. then maybe calendar integration if you want proactive reminders."
+    },
+    {
+     "block_id": "34ddaecf-ce6b-80f2-84b4-ce49faa4b418",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Build slowly. Earn each new capability by making sure the last one is stable first."
+    },
+    {
+     "block_id": "34ddaecf-ce6b-80f4-890b-fb2d5b26777b",
+     "type": "bullet",
+     "depth": 1,
+     "text": "The people who survive month one are the ones who started boring. Trust the boring."
+    },
+    {
+     "block_id": "34ddaecf-ce6b-80c0-9534-ffceb8b58a98",
+     "type": "bullet",
+     "depth": 1,
+     "text": "That's it. no skills. no second agent. no multi-agent orchestrator. no cron jobs. just one agent that knows who you are and does basic tasks reliably."
+    }
+   ]
+  },
+  "Memory and context": {
+   "": [
+    {
+     "block_id": "32cdaecf-ce6b-8033-8f44-ff62150034be",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Memory & Context"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-80dd-98e1-eae8d1e74dae",
+     "type": "bullet",
+     "depth": 1,
+     "text": "gemini light - extremely cheap, has context window 1M tokens, every 15 mins Gemini light reads all convo & backs info, Gemini = temporary memory, OpenClaw can, forced before any question to check whether this info was already answered - red"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-80f6-ab5d-e77d911c6fbf",
+     "type": "bullet",
+     "depth": 1,
+     "text": "can't overload Memory.MD, tree from .MD files already having structure Museverse - Deep Noise - Automations"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-8062-87cb-f7590b00d8d5",
+     "type": "bullet",
+     "depth": 1,
+     "text": "force to control context window in heartbeat"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-800b-a447-c75f4cd2c462",
+     "type": "bullet",
+     "depth": 1,
+     "text": "partially fixed by new update"
+    }
+   ],
+   "Make the agent learn from its mistakes": [
+    {
+     "block_id": "34ddaecf-ce6b-8026-bd0d-d482566125d3",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Make agent learn from its mistakes"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-807c-92a7-e165995be640",
+     "type": "text",
+     "depth": 1,
+     "text": "By default, every session starts clean. Your agent has no memory of the last time it tried something and failed, or the last time you corrected it. Two weeks later, it is still repeating day-three mistakes."
+    },
+    {
+     "block_id": "34ddaecf-ce6b-8004-98ea-d5db1718a957",
+     "type": "text",
+     "depth": 1,
+     "text": "The minimum fix is a .learnings/ folder in your workspace with two files:"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-8020-8e11-e9a1b1d670f8",
+     "type": "bullet",
+     "depth": 1,
+     "text": ".learnings/ERRORS.md - command failures, breakages, exceptions"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-808d-a2c5-ef9efecfe006",
+     "type": "bullet",
+     "depth": 1,
+     "text": ".learnings/LEARNINGS.md - corrections, knowledge gaps, workflow discoveries"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-80d3-833a-cabb4cdee411",
+     "type": "text",
+     "depth": 1,
+     "text": "Add this to SOUL.md:"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-8079-99cb-fcf7ad2b8959",
+     "type": "code",
+     "depth": 1,
+     "text": "Before starting any task, check .learnings/ for relevant past errors.\nWhen you fail at something or I correct you, log it to .learnings/ immediately.",
+     "language": "plain text"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-8089-8f86-c3b78651bd5a",
+     "type": "text",
+     "depth": 1,
+     "text": "Over time, repeated lessons can be promoted into SOUL.md itself so they apply automatically in future sessions."
+    },
+    {
+     "block_id": "34ddaecf-ce6b-80f9-acb0-d380c0fc385b",
+     "type": "code",
+     "depth": 1,
+     "text": "Implement a self-improving learnings system in my OpenClaw workspace.\n\nDo all of the following:\n\n1. Create a `.learnings/` folder if it does not exist.\n2. Create `.learnings/ERRORS.md` for failures, breakages, command errors, and exceptions.\n3. Create `.learnings/LEARNINGS.md` for corrections, workflow discoveries, preferences, and things the agent should remember.\n4. Update `SOUL.md` so it includes these rules:\n- Before starting any task, check `.learnings/` for relevant past errors.\n- When you fail at something or I correct you, log it to `.learnings/` immediately.\n5. If there is already an existing memory or lessons system, merge carefully instead of duplicating it.\n6. Add a short section explaining how future entries should be written so the files stay useful.\n\nThen show me:\n- what files you created or changed\n- the exact rules you added\n- one example `ERRORS.md` entry\n- one example `LEARNINGS.md` entry",
+     "language": "bash"
+    }
+   ]
+  },
+  "Security": {
+   "": [
+    {
+     "block_id": "34ddaecf-ce6b-8097-a997-e1248e66f6f8",
+     "type": "text",
+     "depth": 1,
+     "text": "If you're on a VPS or any internet-connected machine:",
+     "entry_id": "1edee517"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-80b9-b87d-e19fdbf694bc",
+     "type": "code",
+     "depth": 1,
+     "text": "openclaw config get | grep -E \"host|bind\"",
+     "language": "plain text",
+     "entry_id": "1edee517"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-80fa-a944-fc61da39bdb9",
+     "type": "text",
+     "depth": 1,
+     "text": "If it says 0.0.0.0 Your agent is accessible to anyone who finds your IP. there are 500,000+ OpenCLAW instances exposed on the public internet right now. one had a zero-click exploit (CVE-2026-25253, patched) that let attackers hijack agents from a single webpage visit.",
+     "entry_id": "1edee517"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-800a-b89c-c65662daa809",
+     "type": "code",
+     "depth": 1,
+     "text": "openclaw config set gateway.bind loopback",
+     "language": "plain text",
+     "entry_id": "1edee517"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-80a2-a0d9-e6413c637753",
+     "type": "text",
+     "depth": 1,
+     "text": "two minutes. do it before connecting any channel.",
+     "entry_id": "1edee517"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-8031-b5c9-d41fd105064a",
+     "type": "bullet",
+     "depth": 1,
+     "text": "NeptrixAI - ree tool that just adds that little bit more protection on top of everything",
+     "entry_id": "1edee517"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-8095-bb00-ed737b108f38",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Never expose ports publicly - do not expose port 18789, SSH tunneling on local network as long as not exposing ports = ok to connect on local network) or Tailscale for private networking, Treat your gateway token like a password (built in deployment pipeline), even can SSH into VPS only from my network",
+     "entry_id": "1edee517"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-8004-82e6-fd3accda7a70",
+     "type": "bullet",
+     "depth": 1,
+     "text": "VPS - Enable Docker sandboxing - architecture, Set sandbox.mode: \"non-main\" so group chats run in isolated containers.",
+     "entry_id": "1edee517"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-804f-ab9e-ee40ff4afb42",
+     "type": "bullet",
+     "depth": 1,
+     "text": "OpenClaw page on security",
+     "entry_id": "1edee517"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-8061-a0a6-f7a28f3fb478",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Add approvals for destructive actions - draft-first for sending email, ask-before-delete for files, etc.",
+     "entry_id": "1edee517"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-80b7-b5f2-f4901076fb43",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Most secure data encryption for inter-agent comms and all sensitive data, encryption slowing down so be picky",
+     "entry_id": "1edee517"
+    },
+    {
+     "block_id": "34bdaecf-ce6b-80ee-8cc0-fbca259806a1",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Regularly update your OpenClaw to the latest, most secure version (openclaw update)",
+     "entry_id": "1edee517"
+    },
+    {
+     "block_id": "34bdaecf-ce6b-80d1-95a3-d370078ff69c",
+     "type": "bullet",
+     "depth": 1,
+     "text": "run security audits regularly (openclaw security audit)",
+     "entry_id": "1edee517"
+    }
+   ]
+  },
+  "Models and token burn": {
+   "": [
+    {
+     "block_id": "32cdaecf-ce6b-808d-a2c3-ed63034d660f",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Models & Token burn"
+    },
+    {
+     "block_id": "351daecf-ce6b-80df-a588-ec445171edac",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Switching models - Terminal -> openclaw config -> model -> OpenAI codex (follow the directions)"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-805a-8b7e-d4f7f0f3753c",
+     "type": "bullet",
+     "depth": 1,
+     "text": "OpenClaw - switch models programatically - switch based on rules?"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-8024-bfb0-e1f0d4433335",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Gemini - purely in coding 2.5 pretty good"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-8071-bf0e-e67c3dc4e139",
+     "type": "bullet",
+     "depth": 2,
+     "text": "fallback on openrouter, one IP address but agent can connect to any model, involving ideamerocracy = each voice has different weight, connected to historical decisions - learning from past mistakes and changing weights, LLM council, (ChatGPT 5.4, Deepseek, Gemini, Minimax), main caller is OPus - calibrate the models to have highest chance of consensus with Opus? aim: to get second opens/peer review to get highest quality anser considering all options",
+     "entry_id": "8f259406"
+    }
+   ],
+   "GPT 5.4": [
+    {
+     "block_id": "34cdaecf-ce6b-804d-b1fb-fb07d2459a42",
+     "type": "toggle",
+     "depth": 0,
+     "text": "GPT 5.4"
+    }
+   ],
+   "GPT 5.5": [
+    {
+     "block_id": "34ddaecf-ce6b-8038-89d3-f1f6b6258f57",
+     "type": "toggle",
+     "depth": 0,
+     "text": "GPT 5.5"
+    }
+   ],
+   "Token optimization key insights": [
+    {
+     "block_id": "c5338a23-a755-4620-9f47-266b70b291a2",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Context window: ~200K tokens. History eats ~91.6% - restart sessions early"
+    },
+    {
+     "block_id": "11a6513b-1990-4b06-a8c2-3615aff88f1b",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Use /context command to monitor usage"
+    },
+    {
+     "block_id": "93143e6a-7af7-43bc-9012-5c31618a3171",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Fresh context per agent via Ralph loop pattern (Antfarm approach)"
+    }
+   ],
+   "ClawRouter": [
+    {
+     "block_id": "1955fa6a-3778-4622-8681-728db488628a",
+     "type": "text",
+     "depth": 1,
+     "text": "What: Intelligent LLM router by BlockRunAI that routes every request to the cheapest model that can handle it. 15-dimension weighted scoring runs 100% locally in <1ms. One USDC wallet, 30+ models, zero API keys."
+    },
+    {
+     "block_id": "0e7e799b-1c48-427f-9259-0b069fefc9d9",
+     "type": "text",
+     "depth": 1,
+     "text": "Key Features:"
+    },
+    {
+     "block_id": "75086999-a3bc-48b4-8864-8017c052e6c7",
+     "type": "bullet",
+     "depth": 1,
+     "text": "4 routing profiles: auto (74-100% savings), eco (95.9-100%), premium (best quality), free ($0)"
+    },
+    {
+     "block_id": "579c7b4b-fd1d-459c-afc8-5232d63cff78",
+     "type": "bullet",
+     "depth": 1,
+     "text": "4 model tiers: SIMPLE → gemini-flash ($0.60/M) | MEDIUM → grok-code-fast ($1.50/M) | COMPLEX → claude-sonnet ($15/M) | REASONING → o3 ($10/M)"
+    },
+    {
+     "block_id": "47fd7822-a7c0-4484-a828-e4bedc3966d7",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Blended average cost: ~$3.17/M tokens (vs $75/M for Opus)"
+    },
+    {
+     "block_id": "a92b9a7e-1353-4d24-b8b0-6c896b1a4164",
+     "type": "bullet",
+     "depth": 1,
+     "text": "x402 USDC micropayments on Base - non-custodial, no API key management"
+    },
+    {
+     "block_id": "d878d887-329f-48fd-96a6-a442c5319e5c",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Agent-native: Installs as OpenClaw plugin, also works standalone"
+    },
+    {
+     "block_id": "70ac0fd4-06ff-4889-b39e-0b16511334de",
+     "type": "text",
+     "depth": 1,
+     "text": "Stats: 2.5k ⭐ GitHub, 6.5k weekly npm downloads, 115 versions, Hackathon winner"
+    },
+    {
+     "block_id": "7c78acf8-8c0d-4991-a7b9-4ee3045a8f7c",
+     "type": "text",
+     "depth": 1,
+     "text": "Concerns: Requires crypto wallet setup, single maintainer (1bcMax), young project (~2.5 months)"
+    }
+   ]
+  },
+  "Tools stack": {
+   "": [
+    {
+     "block_id": "34bdaecf-ce6b-80b9-a1f2-ec5ff326ff4c",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Tools Stack"
+    },
+    {
+     "block_id": "34bdaecf-ce6b-800c-93a8-f27671b9ceb2",
+     "type": "toggle",
+     "depth": 1,
+     "text": "GOG (CLI Google tool, email, schedule events, write gdocs)"
+    },
+    {
+     "block_id": "34bdaecf-ce6b-80f8-9849-e5e5b183e655",
+     "type": "bullet",
+     "depth": 2,
+     "text": "integrating with your Gmail, Google Calendar, and Google Drive. You can give your Claw its own email address, read access to your calendar, read access to your email, or, if you’re brave - write access to everything. Just ask OpenClaw, “How do I give you read-only access to my Gmail?"
+    },
+    {
+     "block_id": "34bdaecf-ce6b-8075-8672-cafe8a44dc1c",
+     "type": "toggle",
+     "depth": 1,
+     "text": "Github (coding)"
+    },
+    {
+     "block_id": "34bdaecf-ce6b-801b-a35b-ee69c9975905",
+     "type": "bullet",
+     "depth": 2,
+     "text": "give it a narrowly scoped Personal Access Token and OpenClaw becomes an on-demand developer"
+    },
+    {
+     "block_id": "34bdaecf-ce6b-80b0-9767-cc89d079511b",
+     "type": "toggle",
+     "depth": 1,
+     "text": "Firecrawl / Brave / Exa (Web search)"
+    },
+    {
+     "block_id": "34bdaecf-ce6b-80c1-a7b0-e0f22f7ee6ab",
+     "type": "toggle",
+     "depth": 1,
+     "text": "Linear (assigning me tasks)"
+    },
+    {
+     "block_id": "34bdaecf-ce6b-80de-a4df-f6e69d8b8818",
+     "type": "bullet",
+     "depth": 2,
+     "text": "Linear token so it could assign me work or pass things off to our team"
+    },
+    {
+     "block_id": "34bdaecf-ce6b-809e-984f-cbb8ffebe403",
+     "type": "toggle",
+     "depth": 1,
+     "text": "Obsidian (share docs with agent)"
+    },
+    {
+     "block_id": "34bdaecf-ce6b-80b1-a629-ccbc009287c8",
+     "type": "bullet",
+     "depth": 2,
+     "text": "Try Obsidian for sharing docs with your agent. Because OpenClaw loves writing Markdown, many people are using Obsidian as a shared source of truth and collaboration space with their agents."
+    },
+    {
+     "block_id": "34bdaecf-ce6b-802e-b503-ca4ab2964b71",
+     "type": "toggle",
+     "depth": 1,
+     "text": "Manus (execution?)"
+    },
+    {
+     "block_id": "34bdaecf-ce6b-80fb-bc32-ea67a54e1f4f",
+     "type": "bullet",
+     "depth": 2,
+     "text": "Captains having access to Manus? Manus being worker, Manus per agent? tooling through Manus instead of using Opus for tooling (API), captains offloading to Manus and decide what do they outsource and what do they do themselves via opus"
+    }
+   ]
+  },
+  "Operations": {
+   "Own dashboard": [
+    {
+     "block_id": "32cdaecf-ce6b-801b-8ad6-f15825d97dc2",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Own dashboard"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-8012-bd21-f0fd7b56c1fb",
+     "type": "bullet",
+     "depth": 1,
+     "text": "open task for me, load any files relevant, prepare the options"
+    }
+   ],
+   "Local Mac vs VPS": [
+    {
+     "block_id": "32cdaecf-ce6b-805b-b9ed-ea16ef3c05da",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Local Mac vs VPS"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-802b-b319-c01df770f1d8",
+     "type": "bullet",
+     "depth": 1,
+     "text": "plug in everything and connect to internet, set up SSH, install openclaw via SSH, connect via SSH to install openclaw on mac mini, run it from there headless from main machine, do not need to install openclaw on mac mini, installing from main machine"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-8075-9fdc-f005a69c0bc4",
+     "type": "bullet",
+     "depth": 1,
+     "text": "install remote desktop on mac mini,"
+    }
+   ],
+   "Communication": [
+    {
+     "block_id": "32cdaecf-ce6b-80c8-b82d-c7b96eb4ddd7",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Communication"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-8077-9e83-c9fd9cb929ca",
+     "type": "bullet",
+     "depth": 1,
+     "text": "P1: Telegram chat with topics so its more sophisticated?"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-8007-b088-d0f7a940632f",
+     "type": "bullet",
+     "depth": 1,
+     "text": "P2: Own web app that would have chats for each topic/sector?"
+    }
+   ],
+   "Cron jobs": [
+    {
+     "block_id": "34bdaecf-ce6b-80d5-ad62-eb761045eefd",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Cron jobs"
+    },
+    {
+     "block_id": "34bdaecf-ce6b-80e3-a6f3-e73c69686607",
+     "type": "bullet",
+     "depth": 1,
+     "text": "reminder to run openclaw security audit and openclaw update regularly"
+    }
+   ],
+   "Terminal commands": [
+    {
+     "block_id": "349daecf-ce6b-80e1-8474-c55d18df216d",
+     "type": "toggle",
+     "depth": 0,
+     "text": "Terminal Commands"
+    },
+    {
+     "block_id": "349daecf-ce6b-8044-acf2-d564ad3d1c7f",
+     "type": "bullet",
+     "depth": 1,
+     "text": "openclaw doctor - review skills + requirements"
+    },
+    {
+     "block_id": "34cdaecf-ce6b-8062-a06c-d4ab77b35d83",
+     "type": "bullet",
+     "depth": 1,
+     "text": "openclaw status - provide overall check"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-804e-8ee2-e842e36decf9",
+     "type": "bullet",
+     "depth": 1,
+     "text": "openclaw config get agents.defaults.model - check which model running"
+    },
+    {
+     "block_id": "34ddaecf-ce6b-8080-8946-e84a1d668779",
+     "type": "bullet",
+     "depth": 1,
+     "text": "openclaw --version - see openclaw version"
+    }
+   ]
+  },
+  "Multi-agent and hierarchy": {
+   "": [
+    {
+     "block_id": "34bdaecf-ce6b-80dd-8946-f6a620e627b6",
+     "type": "bullet",
+     "depth": 1,
+     "text": "openclaw agents add agent_name and you’ll get put through onboarding again for a fresh agent. This agent can have a completely separate identity, set of tools, crons, and workspace, which means you can treat it like a completely different employee.",
+     "entry_id": "b1be0b52"
+    },
+    {
+     "block_id": "34bdaecf-ce6b-8087-8732-c2c7c2988816",
+     "type": "bullet",
+     "depth": 1,
+     "text": "With a narrower identity, the bots did a better job and were more fun to work with",
+     "entry_id": "b1be0b52"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-80af-9609-e8f5c435ed94",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Spin off the captains realtively soon so they can already start building the context",
+     "entry_id": "b1be0b52"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-80c5-a1db-de39e49f9700",
+     "type": "bullet",
+     "depth": 1,
+     "text": "maxSpawnDepth can create three-level hierarchy, with configurable depth limits and toool policies",
+     "entry_id": "b1be0b52"
+    },
+    {
+     "block_id": "34fdaecf-ce6b-8013-94ea-e506248124e5",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Antfarm - Free, open-source agent orchestration on OpenClaw. Zero-infra (no Docker/Redis/Kafka). YAML-defined pipelines with Ralph loop pattern (fresh context per agent). Pre-built workflows: Feature Dev (7 agents), Security Audit (7 agents), Bug Fix (6 agents). GitHub: snarktank/antfarm",
+     "entry_id": "b1be0b52"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-804b-9f3d-c28ef289aa5a",
+     "type": "bullet",
+     "depth": 1,
+     "text": "subagents have different subdirectories",
+     "entry_id": "b1be0b52"
+    },
+    {
+     "block_id": "32cdaecf-ce6b-800f-9622-f86c17ed4be9",
+     "type": "bullet",
+     "depth": 1,
+     "text": "when spinned off, verify that sub agents were really spinned off (check memory.md and soul.md + heartbeat, cron etc.)",
+     "entry_id": "b1be0b52"
+    },
+    {
+     "block_id": "34bdaecf-ce6b-80e4-bccc-d4dd711fda62",
+     "type": "bullet",
+     "depth": 1,
+     "text": "Can even ask one agent to spawn another. Try something like:",
+     "entry_id": "b1be0b52"
+    },
+    {
+     "block_id": "34bdaecf-ce6b-80b6-a7bc-c07e80e0e8f2",
+     "type": "quote",
+     "depth": 1,
+     "text": "Hey Bob, I just set up Annie the Marketing Intern. Transfer everything in your SOUL, memories, and crons about marketing to her workspace and erase it from yours.",
+     "entry_id": "b1be0b52"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,127 @@
+{
+  "_about": "Section order and blurbs for README.md and FIELD-NOTES.md. Names must match the 'section' values written by the Notion sync (data/links.csv, data/notes.json). kind: links = link entries only, notes = field notes only, mixed = both. min_entries counts rendered items (entries plus notes) per section, globally or per section; tools/lint.py fails below it. notes_file: every note is rendered into that file instead of README.md; notes_index: the README section that carries the index of the notes file.",
+  "min_entries": 3,
+  "notes_file": "FIELD-NOTES.md",
+  "notes_index": "Field notes",
+  "sections": [
+    {
+      "name": "Learn",
+      "kind": "links",
+      "blurb": "Videos, threads and write-ups that taught me how OpenClaw actually behaves - start here if you have not installed it yet."
+    },
+    {
+      "name": "Install and first week",
+      "kind": "mixed",
+      "blurb": "The choices the installer asks you to make (model, channel, search, skills, package manager, hooks, Control UI) and how to survive the first week without breaking anything. My reasoning for each choice is in the notes.",
+      "subsections": [
+        "Model choice",
+        "Channel choice",
+        "Browser choice",
+        "Skill choice",
+        "Skill package manager",
+        "Hooks choice",
+        "Control UI",
+        "Uninstall",
+        "First week",
+        "After week 1"
+      ]
+    },
+    {
+      "name": "Memory and context",
+      "kind": "mixed",
+      "blurb": "How the agent remembers between sessions: the learnings-folder pattern, lossless context, memory plugins and what I still fight with.",
+      "subsections": [
+        "Make the agent learn from its mistakes"
+      ]
+    },
+    {
+      "name": "Security",
+      "kind": "mixed",
+      "blurb": "An agent with your credentials on a machine that is on all day. The exposure check first, then sandboxing, approvals and the managed alternatives."
+    },
+    {
+      "name": "Models and token burn",
+      "kind": "mixed",
+      "blurb": "Which model runs what, how to switch, and how to stop the bill from growing: routers, token providers and the numbers I wrote down.",
+      "subsections": [
+        "GPT 5.4",
+        "GPT 5.5",
+        "Token providers",
+        "Token optimization key insights",
+        "ClawRouter"
+      ]
+    },
+    {
+      "name": "Tools stack",
+      "kind": "notes",
+      "blurb": "What I connect the agent to and how far I let it go with each tool - Google, GitHub, web search, Linear, Obsidian, Manus."
+    },
+    {
+      "name": "Skills",
+      "kind": "links",
+      "blurb": "The skills I install or keep an eye on, grouped by what they are for. Star counts and licenses come from GitHub and are refreshed weekly.",
+      "subsections": [
+        "General",
+        "Token Efficiency",
+        "Memory",
+        "Security",
+        "Development",
+        "Webdesign",
+        "Research",
+        "Image & Video generation",
+        "Marketing, Ads & SEO",
+        "GTM & Sales",
+        "Skill platforms"
+      ]
+    },
+    {
+      "name": "Multi-agent and hierarchy",
+      "kind": "mixed",
+      "blurb": "Spawning more agents, giving each a narrow identity, and checking they really exist. The example roster that goes around (Polly the personal assistant, Finn the family manager and friends) is Claire Vo's, from her OpenClaw guide on Lenny's Newsletter listed under Install and first week - only my own notes are kept here."
+    },
+    {
+      "name": "Prompts and collections",
+      "kind": "links",
+      "blurb": "Prompt packs worth stealing from, the awesome-lists I go back to, and a few places that got me thinking about what an agent could earn.",
+      "subsections": [
+        "Prompts",
+        "Collections",
+        "Business ideas and inspiration"
+      ]
+    },
+    {
+      "name": "Operations",
+      "kind": "mixed",
+      "blurb": "Running the thing day to day: where it lives (Mac mini or VPS), how I talk to it, the cron jobs, the terminal commands I keep forgetting, and money.",
+      "subsections": [
+        "Own dashboard",
+        "Communication",
+        "Cron jobs",
+        "Terminal commands",
+        "Local Mac vs VPS",
+        "Finances"
+      ]
+    },
+    {
+      "name": "Use cases",
+      "kind": "links",
+      "min_entries": 2,
+      "blurb": "Public write-ups of what people actually run. My own use-case pages stay private, so this section is short on purpose."
+    },
+    {
+      "name": "Field notes",
+      "kind": "mixed",
+      "blurb": "Working rules I keep in Notion and refine as OpenClaw changes - the anatomy of the workspace files, what not to do, SOUL.md, self-improvement, skill design.",
+      "subsections": [
+        "General",
+        "Don'ts",
+        "Anatomy of the workspace files",
+        "Self-improving",
+        "SOUL.md",
+        "Gamification",
+        "Skill design best practices",
+        "Design Director agent"
+      ]
+    }
+  ]
+}

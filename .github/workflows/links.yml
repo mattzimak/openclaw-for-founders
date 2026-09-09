@@ -1,0 +1,60 @@
+name: Weekly link check
+
+# Re-verifies every link, refreshes GitHub metadata (stars, license, last push,
+# archived, renamed), rebuilds README.md + FIELD-NOTES.md and opens a pull
+# request when either changed. Uses only the repository's GITHUB_TOKEN.
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"   # Mondays 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Enrich (GitHub API via gh, oEmbed, HTTP checks)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tools/enrich.py
+
+      - name: Link status summary
+        run: python3 tools/check_links.py
+
+      - name: Build README and FIELD-NOTES
+        run: python3 tools/build.py --notes-file FIELD-NOTES.md
+
+      - name: Did the README or the notes change?
+        id: diff
+        run: |
+          if git diff --quiet -- README.md FIELD-NOTES.md; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open a pull request
+        if: steps.diff.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: chore/weekly-link-check
+          delete-branch: true
+          commit-message: "chore: weekly link check and metadata refresh"
+          title: "Weekly link check: README or FIELD-NOTES changed"
+          body: |
+            Automated run of `tools/enrich.py`, `tools/check_links.py` and `tools/build.py --notes-file FIELD-NOTES.md`.
+
+            Review `data/_dead.md` for dead or redirected links before merging.
+            Fix names/descriptions in `data/overrides.json`, never in README.md or FIELD-NOTES.md (both are generated).
+          labels: automation
