@@ -20,8 +20,8 @@
  },
  "1b00bf43": {
   "name": "If you installed OpenClaw this week, read this (r/clawdbot)",
-  "description": "Reddit thread addressed to people who installed OpenClaw this week - the bookmark sits next to my first-week notes.",
-  "_why": "Reddit shows bots only the word 'Reddit'; name from the post slug, description from where it sits in Notion"
+  "description": "ShabzSparq's checklist after fixing 50+ OpenClaw setups, in order: switch the default model off Opus to Sonnet before the bill surprises you, bind the gateway to 127.0.0.1 and reach it over an SSH tunnel, read BOOTSTRAP.md and write a six-line SOUL.md before the first real task, and install no skills in week one because some loop silently and burn tokens. 559 upvotes, 64 comments.",
+  "_why": "Reddit shows bots only the word 'Reddit'; name from the post slug, description from the thread https://www.reddit.com/r/clawdbot/comments/1s270n0/if_you_installed_openclaw_this_week_read_this fetched 2026-09-09 via Apify reddit-scraper-lite"
  },
  "df7b78aa": {
   "name": "Brave Search API",
@@ -39,10 +39,6 @@
   "name": "Setting up OpenClaw properly, not just install and chat (Corey Ganim on X)",
   "_why": "name was the author only; the first line of the post says what it is"
  },
- "79d4456b": {
-  "hide": true,
-  "_why": "the post carries only a t.co link and Matt left no note - nothing to describe honestly (Ernesto Lopez on X)"
- },
  "fecb450d": {
   "name": "The ultimate guide to OpenClaw - 1 hour free masterclass (Greg Isenberg on X)",
   "description": "Greg Isenberg's thread: fix memory so it compounds (MEMORY.md plus daily logs, promote important learnings), then the rest of his one-hour masterclass.",
@@ -59,41 +55,22 @@
   "_why": "LinkedIn gives crawlers a truncated caption; name from the post title, description from the caption plus where it sits"
  },
  "71a72271": {
-  "hide": true,
-  "_why": "the post carries only a t.co link and Matt's only label is the word 'mistakes' - not enough to describe it (klöss on X)"
- },
- "854f9d96": {
-  "name": "OpenClaw install checklist (Moritz Kremb on X)",
-  "description": "Moritz Kremb's install checklist, posted on X - the post itself is just a link. The same Moritz as in the 'I fixed OpenClaw so it actually works' video.",
-  "_why": "Matt's label 'Install checklist' sits in the paragraph above the link in Notion, so the sync could not attach it"
+  "name": "28 painful mistakes I made with OpenClaw so you don't have to (kloss on X)",
+  "_why": "Matt's label is the word 'mistakes'; name is the X article's title (fetched 2026-09-09 via Apify x-twitter-article-markdown), the description now comes from Notion"
  },
  "3950fb91": {
   "name": "I rebuilt my entire life OS with OpenClaw (r/OpenClawUseCases)",
-  "description": "Reddit thread by someone who rebuilt their whole personal 'life OS' on OpenClaw - the first link under my best-practices notes.",
-  "_why": "Reddit shows bots only the word 'Reddit'; name from the post slug, description from where it sits in Notion"
- },
- "d8f4bfcc": {
-  "hide": true,
-  "_why": "the post carries only a t.co link and Matt left no note - nothing to describe honestly (Ryan Carson on X)"
- },
- "e01d5376": {
-  "name": "How to build an entire OpenClaw agent in less than one day (0xMarioNawfal on X)",
-  "description": "Thread embedded under my Learning toggle: here's how to build an entire OpenClaw agent in less than one day.",
-  "_why": "name was the author only and the post text is in capitals"
- },
- "dd70d505": {
-  "hide": true,
-  "_why": "the post carries only a t.co link and Matt left no note - nothing to describe honestly (Kevin Simback on X)"
+  "description": "Reddit write-up of the seven use cases from Matthew Berman's video on the 21 OpenClaw automations he runs daily: a self-updating personal CRM fed by Gmail and meeting transcripts, a nightly four-agent security council, an eight-expert business advisory council, a video idea research pipeline, a morning briefing to Telegram, cross-platform social stats and a food journal. The thread's own takeaway: scheduled skills plus Telegram notifications plus clean data pipelines, nothing magic.",
+  "_why": "Reddit shows bots only the word 'Reddit'; name from the post title, description from the thread https://www.reddit.com/r/OpenClawUseCases/comments/1rd9t8b/i_rebuilt_my_entire_life_os_with_openclaw_after fetched 2026-09-09 via Apify reddit-scraper-lite (244 upvotes, 61 comments)"
  },
  "8f259406": {
-  "name": "Local heartbeat with a local model (Instagram post)",
-  "description": "Run the heartbeat locally with a local model - an Instagram post I saved under token burn; the platform shows crawlers nothing, my note on it is in the field notes.",
-  "_why": "Notion text was 'localite heartbeat and use local model for it'; Instagram exposes no text to a crawler"
+  "name": "Local heartbeat and 9 more OpenClaw lessons (Divyanshi Sharma on Instagram)",
+  "_why": "Notion label is 'localite heartbeat and use local model for it'; the 18 slides were read on 2026-09-09 (Apify instagram-scraper) and the description now lives in Notion"
  },
  "cb5f4322": {
   "name": "GPT 5.4 in OpenClaw: the settings to change (r/openclaw)",
-  "description": "The r/openclaw thread behind the wave of 'GPT 5.4 sucks in OpenClaw' posts - when you switch, change the settings it lists.",
-  "_why": "Notion text was 'when switching do these settings'; Reddit shows bots only the word 'Reddit', name from the post slug"
+  "description": "r/openclaw thread arguing that most 'GPT 5.4 sucks in OpenClaw' complaints are setup problems: update to at least OpenClaw 2026.4.5, turn reasoning on with thinking at medium or higher, use the openai-responses path, enable block streaming when the bot lives in Telegram, and keep enough recent context. The author still finds GPT 5.4 needs tighter steering than Opus 4.6, and prefers it that way.",
+  "_why": "Notion text was 'when switching do these settings'; name from the post title, description from the thread https://www.reddit.com/r/openclaw/comments/1sgpg8b/a_lot_of_the_new_gpt_54_sucks_in_openclaw_posts fetched 2026-09-09 via Apify reddit-scraper-lite (37 upvotes, 32 comments)"
  },
  "156937e0": {
   "name": "GPT 5.5: how to switch (Tak on X)",
@@ -170,13 +147,13 @@
   "_why": "clawdhub.com redirects to clawhub.ai; the Notion bullet started with the URL"
  },
  "5670176a": {
-  "hide": true,
-  "_why": "the post carries only a t.co link and Matt's only label is 'Skill graphs' - not enough to describe it (Heinrich / @arscontexta on X)"
+  "name": "Skill graphs beat one SKILL.md (Heinrich, @arscontexta on X)",
+  "_why": "Matt's label is 'Skill graphs'; name after the X article title 'Skill Graphs > SKILL.md' (fetched 2026-09-09 via Apify x-twitter-article-to-markdown), the description now comes from Notion"
  },
  "2120c060": {
-  "name": "Kickstart",
-  "description": "Skill that will implement the core things - an X post by @jordymaui (the post itself is a link).",
-  "_why": "the link text was 'X article'; Matt's bullet was 'Kickstart - skill that will implement core things'"
+  "name": "Before you do anything with OpenClaw, install Kickstart (jordy on X)",
+  "description": "jordy's X article: before you chat with a fresh OpenClaw agent, run npx clawhub install kickstart and say 'run kickstart setup'. The free skill installs SOUL.md, USER.md and MEMORY.md templates, an anchor.md of non-negotiable rules that survives context compaction, model defaults that put heartbeats on Haiku instead of Opus, and a context bundle protocol so sub-agents get a real brief. The article explains each problem it solves.",
+  "_why": "the link text was 'X article' and Matt's bullet was 'Kickstart - skill that will implement core things'; name and description from the article https://x.com/jordymaui/status/2027067341280891204 fetched 2026-09-09 via Apify x-twitter-article-to-markdown"
  },
  "1883d658": {
   "url": "https://www.larrybrain.com",
@@ -185,8 +162,8 @@
    "https://x.com/oliverhenry/status/2023776478446436696"
   ],
   "name": "Larry (LarryBrain)",
-  "description": "TikTok video-making skill on LarryBrain, now also a standalone app on LarryLoop - the X post is the announcement.",
-  "_why": "the sync took the X post as primary; the product site is the stable home"
+  "description": "Ollie Warren's TikTok slideshow skill for OpenClaw: his agent Larry took his apps to 8M views in a week, and the X article walks through the skill files, the hook formulas and the RevenueCat revenue loop. LarryBrain is the product site, LarryLoop the standalone app, and the ClawHub skill has its own entry.",
+  "_why": "the sync took the X post as primary; the product site is the stable home; description refreshed 2026-09-09 from the article https://x.com/oliverhenry/status/2023776478446436696 (Apify x-twitter-article-to-markdown)"
  },
  "00da685e": {
   "name": "7 OpenClaw skills for paid media (get-ryze.ai)",

@@ -4,35 +4,35 @@ Source page: `2fddaecfce6b8068a1abeff8c06a7db7` - generated 2026-09-09. Block id
 
 ## Counts
 
-- entries: 61
-  - Field notes / General: 4
-  - Field notes / Self-improving: 1
-  - Install and first week: 2
-  - Install and first week / Browser choice: 2
-  - Install and first week / Channel choice: 1
-  - Learn: 13
-  - Memory and context: 4
-  - Models and token burn: 2
-  - Models and token burn / GPT 5.4: 1
-  - Models and token burn / GPT 5.5: 1
-  - Models and token burn / Token providers: 1
-  - Multi-agent and hierarchy: 1
-  - Operations / Finances: 1
-  - Operations / Local Mac vs VPS: 2
-  - Operations / Own dashboard: 1
-  - Prompts and collections / Business ideas and inspiration: 1
-  - Prompts and collections / Collections: 3
-  - Prompts and collections / Prompts: 3
-  - Security: 4
-  - Skills / General: 3
-  - Skills / Image & Video generation: 1
-  - Skills / Marketing, Ads & SEO: 1
-  - Skills / Memory: 1
-  - Skills / Research: 1
-  - Skills / Security: 2
-  - Skills / Skill platforms: 1
-  - Skills / Token Efficiency: 1
-  - Use cases: 2
+- entries: 72
+- Field notes / General: 4
+- Field notes / Self-improving: 2
+- Install and first week: 2
+- Install and first week / Browser choice: 2
+- Install and first week / Channel choice: 1
+- Learn: 15
+- Memory and context: 7
+- Models and token burn: 3
+- Models and token burn / GPT 5.4: 1
+- Models and token burn / GPT 5.5: 1
+- Models and token burn / Token providers: 1
+- Multi-agent and hierarchy: 1
+- Operations / Finances: 1
+- Operations / Local Mac vs VPS: 2
+- Operations / Own dashboard: 1
+- Prompts and collections / Business ideas and inspiration: 1
+- Prompts and collections / Collections: 3
+- Prompts and collections / Prompts: 4
+- Security: 4
+- Skills / General: 5
+- Skills / Image & Video generation: 2
+- Skills / Marketing, Ads & SEO: 1
+- Skills / Memory: 1
+- Skills / Research: 1
+- Skills / Security: 2
+- Skills / Skill platforms: 1
+- Skills / Token Efficiency: 1
+- Use cases: 2
 - notes: 187
 - media/file blocks skipped: 11
 
@@ -67,7 +67,7 @@ Source page: `2fddaecfce6b8068a1abeff8c06a7db7` - generated 2026-09-09. Block id
 - `Self-improving` -> links+notes -> Field notes / Self-improving
 - `SOUL.MD` -> notes -> Field notes / SOUL.md
 - `Gamification` -> notes -> Field notes / Gamification
-- `Data feeding / Context` -> private -> 
+- `Data feeding / Context` -> private ->
 - `Own dashboard` -> links+notes -> Operations / Own dashboard
 - `Local Mac vs VPS` -> links+notes -> Operations / Local Mac vs VPS
 - `Prompts` -> links -> Prompts and collections / Prompts
@@ -84,24 +84,24 @@ Source page: `2fddaecfce6b8068a1abeff8c06a7db7` - generated 2026-09-09. Block id
 - `Skills > Image & Video generation` -> links -> Skills / Image & Video generation
 - `Skills > Marketing, Ads & SEO` -> links -> Skills / Marketing, Ads & SEO
 - `Skills > GTM & Sales` -> links -> Skills / GTM & Sales
-- `Skills > Collections` -> private -> 
+- `Skills > Collections` -> private ->
 - `Skills > Skill platforms` -> links -> Skills / Skill platforms
 - `Hierarchy & subagents (OpenClaw Doc)` -> links+notes -> Multi-agent and hierarchy
-- `Detection - browsing, proxies etc.` -> private -> 
-- `Speciliazed OpenClaw agents` -> private -> 
+- `Detection - browsing, proxies etc.` -> private ->
+- `Speciliazed OpenClaw agents` -> private ->
 - `Business ideas & inspo` -> links -> Prompts and collections / Business ideas and inspiration
 - `Token providers` -> links -> Models and token burn / Token providers
-- `Mission Control Roadmap` -> private -> 
+- `Mission Control Roadmap` -> private ->
 - `Terminal Commands` -> notes -> Operations / Terminal commands
 - `Collections` -> links -> Prompts and collections / Collections
 - `Finances` -> links -> Operations / Finances
 - `Use cases` -> links -> Use cases
 - `Skill Design Best Practices (heading)` -> notes -> Field notes / Skill design best practices
 - `🎨 Design Director Agent - Full Design Agency Repla (heading)` -> links+notes -> Field notes / Design Director agent
-- `💰 Token Optimization (heading)` -> private -> 
+- `💰 Token Optimization (heading)` -> private ->
 - `Key Insights (heading)` -> notes -> Models and token burn / Token optimization key insights
 - `ClawRouter - Agent-Native LLM Router (⭐ 4/5 Recomm (heading)` -> links+notes -> Models and token burn / ClawRouter
-- `📝 Other (heading)` -> private -> 
+- `📝 Other (heading)` -> private ->
 
 ## Mapping decisions recorded in the config
 
@@ -216,7 +216,7 @@ Blocks forced private by config (private_block_ids):
 - callout (377daecf-ce6b-807f-af8b-fe55ce545881)
 - paragraph (34ddaecf-ce6b-8002-b9f3-d9b4125869bb) - bash
 - bulleted_list_item (32cdaecf-ce6b-807d-8d23-d2f775a78c46) - Network setup when on home wifi?
-- bulleted_list_item (32cdaecf-ce6b-80ff-8ecf-d7f669683515) - mycilium equation - best routing for informatiob spreading, 
+- bulleted_list_item (32cdaecf-ce6b-80ff-8ecf-d7f669683515) - mycilium equation - best routing for informatiob spreading,
 - bulleted_list_item (32cdaecf-ce6b-8082-8977-e6722ad92c88) - software more and more conscious so watch immune-system like
 - bulleted_list_item (32cdaecf-ce6b-8049-9f39-e2886cbf8c6e) - Using models via Copilot via GIthub subscription (COdex, Son
 - bulleted_list_item (32cdaecf-ce6b-8095-8fab-da73494aa4f0) - [redacted] routing to different captains already (subagents doing
@@ -236,36 +236,36 @@ Blocks forced private by config (private_block_ids):
 ## Excluded links by reason
 
 - auto-linked-filename: 5
-  - bootstrap.md (34ddaecf-ce6b-8023-afed-f80ffce2c528, Install and first week)
-  - memory.md (32cdaecf-ce6b-80f6-ab5d-e77d911c6fbf, Memory and context)
-  - memory.md (32cdaecf-ce6b-800f-9622-f86c17ed4be9, Multi-agent and hierarchy)
-  - soul.md (32cdaecf-ce6b-800f-9622-f86c17ed4be9, Multi-agent and hierarchy)
-  - skill.md (49bcf228-f736-4794-8bdd-1392f4a2b74a, Field notes)
+- bootstrap.md (34ddaecf-ce6b-8023-afed-f80ffce2c528, Install and first week)
+- memory.md (32cdaecf-ce6b-80f6-ab5d-e77d911c6fbf, Memory and context)
+- memory.md (32cdaecf-ce6b-800f-9622-f86c17ed4be9, Multi-agent and hierarchy)
+- soul.md (32cdaecf-ce6b-800f-9622-f86c17ed4be9, Multi-agent and hierarchy)
+- skill.md (49bcf228-f736-4794-8bdd-1392f4a2b74a, Field notes)
 - config-exclude_urls: 2
-  - https://discord.com/channels/1019361803752456192/1482072289511211200 (32cdaecf-ce6b-8023-86de-d2d64a9d1497, Security)
-  - https://www.reddit.com/r/DiscountPremiumAcc/comments/1s75xbm/practically_unlimited_codex_gpt54_from_20_try_for (346daecf-ce6b-80fe-9ae7-f2996983f02d, Models and token burn)
+- https://discord.com/channels/1019361803752456192/1482072289511211200 (32cdaecf-ce6b-8023-86de-d2d64a9d1497, Security)
+- https://www.reddit.com/r/DiscountPremiumAcc/comments/1s75xbm/practically_unlimited_codex_gpt54_from_20_try_for (346daecf-ce6b-80fe-9ae7-f2996983f02d, Models and token burn)
 - google-docs: 1
-  - docs.google.com (32cdaecf-ce6b-8097-ba61-c55545dd6e3f, Operations)
+- docs.google.com (32cdaecf-ce6b-8097-ba61-c55545dd6e3f, Operations)
 - local-address: 3
-  - 127.0.0.1 (349daecf-ce6b-80fe-ada0-c8656fbb71e0, Install and first week)
-  - 0.0.0.0 (34ddaecf-ce6b-80fa-a944-fc61da39bdb9, Security)
+- 127.0.0.1 (349daecf-ce6b-80fe-ada0-c8656fbb71e0, Install and first week)
+- 0.0.0.0 (34ddaecf-ce6b-80fa-a944-fc61da39bdb9, Security)
 - notion: 11
-  - app.notion.com (337daecf-ce6b-8087-a14b-da96e66d41ef, Prompts and collections)
-  - app.notion.com (32cdaecf-ce6b-801f-b573-ceb1e5499a1a, Use cases)
-  - app.notion.com (30adaecf-ce6b-8072-8724-f5b2b443affb, Use cases)
-  - app.notion.com (32cdaecf-ce6b-80a3-a289-d467656eccf4, Use cases)
-  - app.notion.com (32cdaecf-ce6b-80a9-92dd-cd45f1de680a, Use cases)
-  - app.notion.com (32cdaecf-ce6b-80b1-891f-f2a399998cf8, Use cases)
-  - app.notion.com (32cdaecf-ce6b-8007-bd16-df4a19bf6a95, Use cases)
-  - app.notion.com (32cdaecf-ce6b-80b2-8852-e16bed4d1356, Use cases)
-  - app.notion.com (32cdaecf-ce6b-801a-9deb-cbeddc16c9ee, Use cases)
-  - app.notion.com (32cdaecf-ce6b-80ad-88ad-fed717040ac7, Use cases)
-  - app.notion.com (32cdaecf-ce6b-808b-8fa3-e2ea01f18f56, Use cases)
+- app.notion.com (337daecf-ce6b-8087-a14b-da96e66d41ef, Prompts and collections)
+- app.notion.com (32cdaecf-ce6b-801f-b573-ceb1e5499a1a, Use cases)
+- app.notion.com (30adaecf-ce6b-8072-8724-f5b2b443affb, Use cases)
+- app.notion.com (32cdaecf-ce6b-80a3-a289-d467656eccf4, Use cases)
+- app.notion.com (32cdaecf-ce6b-80a9-92dd-cd45f1de680a, Use cases)
+- app.notion.com (32cdaecf-ce6b-80b1-891f-f2a399998cf8, Use cases)
+- app.notion.com (32cdaecf-ce6b-8007-bd16-df4a19bf6a95, Use cases)
+- app.notion.com (32cdaecf-ce6b-80b2-8852-e16bed4d1356, Use cases)
+- app.notion.com (32cdaecf-ce6b-801a-9deb-cbeddc16c9ee, Use cases)
+- app.notion.com (32cdaecf-ce6b-80ad-88ad-fed717040ac7, Use cases)
+- app.notion.com (32cdaecf-ce6b-808b-8fa3-e2ea01f18f56, Use cases)
 - notion-internal: 2
-  - (internal) (332daecf-ce6b-80e5-b5e0-caf166a86ce9, Skills)
+- (internal) (332daecf-ce6b-80e5-b5e0-caf166a86ce9, Skills)
 - config exclude_urls hits:
-  - https://discord.com/channels/1019361803752456192/1482072289511211200 (32cdaecf-ce6b-8023-86de-d2d64a9d1497)
-  - https://www.reddit.com/r/DiscountPremiumAcc/comments/1s75xbm/practically_unlimited_codex_gpt54_from_20_try_for (346daecf-ce6b-80fe-9ae7-f2996983f02d)
+- https://discord.com/channels/1019361803752456192/1482072289511211200 (32cdaecf-ce6b-8023-86de-d2d64a9d1497)
+- https://www.reddit.com/r/DiscountPremiumAcc/comments/1s75xbm/practically_unlimited_codex_gpt54_from_20_try_for (346daecf-ce6b-80fe-9ae7-f2996983f02d)
 
 ## Entries missing a description (Notion text)
 
@@ -280,20 +280,13 @@ Blocks forced private by config (private_block_ids):
 - Install and first week / Browser choice: docs.openclaw.ai/tools - https://docs.openclaw.ai/tools/web (349daecf-ce6b-80b3-b869-d914df805a2c)
 - Install and first week / Channel choice: Set up Telegram guide here - https://docs.openclaw.ai/channels/telegram (349daecf-ce6b-80c7-ad81-fafe0cf04f3f)
 - Learn: @coreyganim on X - https://x.com/coreyganim/status/2036103806975426779 (330daecf-ce6b-8032-8d6d-df247636554a)
-- Learn: @ernestosoftware on X - https://x.com/ernestosoftware/status/2037187494530208029 (330daecf-ce6b-8042-aab8-dd6a3eb839db)
 - Learn: @gregisenberg on X - https://x.com/gregisenberg/status/2034778615464735000 (330daecf-ce6b-803d-9843-d1efd96c1c77)
-- Learn: @moritzkremb on X - https://x.com/moritzkremb/status/2029304864719667335 (332daecf-ce6b-80dc-a269-cfb593002bfe)
-- Learn: @roundtablespace on X - https://x.com/roundtablespace/status/2044879754969387022 (344daecf-ce6b-8069-a5ba-df9d1dcb6fd5)
-- Learn: @ryancarson on X - https://x.com/ryancarson/status/2039786704731541903 (333daecf-ce6b-8086-8572-df3ceb1b8996)
 - Learn: LinkedIn post - https://www.linkedin.com/posts/petergyang_this-is-the-most-complete-setup-ive-seen-ugcPost-7459248459813064705-5eB4 (35ddaecf-ce6b-806e-8902-d25ff575f4f5)
 - Learn: YouTube video DIa0MYJzM5I - https://www.youtube.com/watch?v=DIa0MYJzM5I&t=1s (34ddaecf-ce6b-800e-ba20-cd919fee63de)
 - Learn: YouTube video fd4k16REDOU - https://www.youtube.com/watch?v=fd4k16REDOU (335daecf-ce6b-806f-9cc2-ff1028b443e0)
 - Learn: YouTube video nSBKCZQkmYw - https://www.youtube.com/watch?v=nSBKCZQkmYw (342daecf-ce6b-8045-bc4d-cec85c11af83)
-- Learn: mistakes - https://x.com/kloss_xyz/status/2032011756890177552 (321daecf-ce6b-8061-a824-ebc9cae2b139)
 - Learn: r/OpenClawUseCases post - https://www.reddit.com/r/OpenClawUseCases/comments/1rd9t8b/i_rebuilt_my_entire_life_os_with_openclaw_after (342daecf-ce6b-8068-895c-d6aa489f0e4b)
-- Memory and context: @ksimback on X - https://x.com/ksimback/status/2024180197910864182 (32cdaecf-ce6b-80ef-a2c3-ca6080dab7c7)
 - Memory and context: Supermemory - https://supermemory.ai (32cdaecf-ce6b-8057-9d6d-d4fce7657603)
-- Models and token burn: localite heartbeat and use local model for it - https://www.instagram.com/p/DVJPnoGkvnd?img_index=1 (32cdaecf-ce6b-80e6-a0f9-e5cd744f24ae)
 - Models and token burn / GPT 5.4: when switching do these settings - https://www.reddit.com/r/openclaw/comments/1sgpg8b/a_lot_of_the_new_gpt_54_sucks_in_openclaw_posts (34cdaecf-ce6b-80de-a7d9-eefb151c8147)
 - Models and token burn / GPT 5.5: how to switch - https://x.com/cherry_mx_reds/status/2047390468778901738 (34ddaecf-ce6b-805a-b59e-e34f0d51d875)
 - Operations / Finances: Link - wallet for agents by Stripe (Tweet) - https://link.com/en-cz/agents (353daecf-ce6b-800a-b153-cb71dd2a36d4)
@@ -306,7 +299,6 @@ Blocks forced private by config (private_block_ids):
 - Prompts and collections / Prompts: Sort - https://gist.github.com/mberman84/065631c62d6d8f30ecb14748c00fc6d9 (31fdaecf-ce6b-8032-9ccf-e75c7a3eb8e6)
 - Security: Nemoclaw (Link, Discord Nemo channel) - https://www.nvidia.com/en-us/ai/nemoclaw (32cdaecf-ce6b-8023-86de-d2d64a9d1497)
 - Security: YouTube video jw_o0xr8MWU - https://www.youtube.com/watch?v=jw_o0xr8MWU&t=2647s (33adaecf-ce6b-80c6-a6b8-f7195bf9053d)
-- Skills / General: Skill graphs - https://x.com/arscontexta/status/2023957499183829467 (332daecf-ce6b-80c9-a2f2-d11c7fc076fe)
 - Skills / Marketing, Ads & SEO: 7 Openclaw skills for Paid Media - https://www.get-ryze.ai/blog/openclaw-google-meta-ads-guide (332daecf-ce6b-805d-b632-c363c5fa5bc8)
 - Skills / Security: clawdhub.com/peterokase42/dont-hack-me - Security self-check - https://clawdhub.com/peterokase42/dont-hack-me (332daecf-ce6b-8026-8d7d-dcabfdf625e4)
 - Skills / Skill platforms: Clawhub - https://clawhub.ai/skills?sort=downloads (344daecf-ce6b-8095-bcc7-e42d68c22ac4)
@@ -317,21 +309,16 @@ Blocks forced private by config (private_block_ids):
 ## Entries named from their URL (no usable link text)
 
 - r/OpenClawUseCases post - https://www.reddit.com/r/OpenClawUseCases/comments/1rd9t8b/i_rebuilt_my_entire_life_os_with_openclaw_after (342daecf-ce6b-8068-895c-d6aa489f0e4b)
-- @ernestosoftware on X - https://x.com/ernestosoftware/status/2037187494530208029 (330daecf-ce6b-8042-aab8-dd6a3eb839db)
 - @gregisenberg on X - https://x.com/gregisenberg/status/2034778615464735000 (330daecf-ce6b-803d-9843-d1efd96c1c77)
 - @coreyganim on X - https://x.com/coreyganim/status/2036103806975426779 (330daecf-ce6b-8032-8d6d-df247636554a)
-- @moritzkremb on X - https://x.com/moritzkremb/status/2029304864719667335 (332daecf-ce6b-80dc-a269-cfb593002bfe)
-- @ryancarson on X - https://x.com/ryancarson/status/2039786704731541903 (333daecf-ce6b-8086-8572-df3ceb1b8996)
 - LinkedIn post - https://www.linkedin.com/posts/petergyang_this-is-the-most-complete-setup-ive-seen-ugcPost-7459248459813064705-5eB4 (35ddaecf-ce6b-806e-8902-d25ff575f4f5)
 - YouTube video nSBKCZQkmYw - https://www.youtube.com/watch?v=nSBKCZQkmYw (342daecf-ce6b-8045-bc4d-cec85c11af83)
 - YouTube video DIa0MYJzM5I - https://www.youtube.com/watch?v=DIa0MYJzM5I&t=1s (34ddaecf-ce6b-800e-ba20-cd919fee63de)
 - YouTube video fd4k16REDOU - https://www.youtube.com/watch?v=fd4k16REDOU (335daecf-ce6b-806f-9cc2-ff1028b443e0)
-- @roundtablespace on X - https://x.com/roundtablespace/status/2044879754969387022 (344daecf-ce6b-8069-a5ba-df9d1dcb6fd5)
 - lennysnewsletter.com/p - https://www.lennysnewsletter.com/p/openclaw-the-complete-guide-to-building (349daecf-ce6b-8072-9ddf-f4ec3bebed2b)
 - docs.openclaw.ai/tools - https://docs.openclaw.ai/tools/web (349daecf-ce6b-80b3-b869-d914df805a2c)
 - brave.com/search - https://brave.com/search/api (349daecf-ce6b-809d-b10b-e41348213c00)
 - r/clawdbot post - https://www.reddit.com/r/clawdbot/comments/1s270n0/if_you_installed_openclaw_this_week_read_this (34ddaecf-ce6b-801d-a3bb-fe6564d45653)
-- @ksimback on X - https://x.com/ksimback/status/2024180197910864182 (32cdaecf-ce6b-80ef-a2c3-ca6080dab7c7)
 - YouTube video jw_o0xr8MWU - https://www.youtube.com/watch?v=jw_o0xr8MWU&t=2647s (33adaecf-ce6b-80c6-a6b8-f7195bf9053d)
 - claw3d.ai - https://www.claw3d.ai (32cdaecf-ce6b-809d-a470-cb95b658db9e)
 - clawdhub.com/JimLiuxinghai - https://clawdhub.com/JimLiuxinghai/find-skills (332daecf-ce6b-80c7-8e62-d32cdc305460)
@@ -345,7 +332,7 @@ Blocks forced private by config (private_block_ids):
 
 ## Name collisions (same normalized name, different URL)
 
-- none
+- Larry (ClawHub): https://clawhub.ai/OllieWazza/larry vs https://x.com/oliverhenry/status/2023776478446436696
 
 ## ROTATE warnings (secret-shaped text found on the private side)
 

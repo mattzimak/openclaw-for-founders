@@ -25,8 +25,8 @@
   "last_checked": "2026-09-09",
   "license": "MIT",
   "oembed_title": "",
-  "pushed_at": "2026-09-08",
-  "stars": 61620,
+  "pushed_at": "2026-09-09",
+  "stars": 61648,
   "status": "ok",
   "url": "https://github.com/mvanhorn/last30days-skill"
  },
@@ -60,6 +60,22 @@
   "stars": 229,
   "status": "ok",
   "url": "https://github.com/alvinreal/awesome-openclaw-tips#mem-01-make-your-agent-learn-from-its-mistakes"
+ },
+ "0749879d": {
+  "archived": false,
+  "final_url": "https://clawhub.ai/olliewazza/skills/larry",
+  "full_name": "",
+  "gh_description": "",
+  "http_status": 200,
+  "last_checked": "2026-09-09",
+  "license": "",
+  "oembed_title": "",
+  "page_description": "Automate TikTok slideshow marketing for any app or product. Researches competitors, generates AI images, adds text overlays, posts via Postiz, tracks analyti...",
+  "page_title": "Larry - ClawHub",
+  "pushed_at": "",
+  "stars": null,
+  "status": "redirected",
+  "url": "https://clawhub.ai/OllieWazza/larry"
  },
  "1440c17d": {
   "archived": false,
@@ -241,7 +257,7 @@
   "last_checked": "2026-09-09",
   "license": "",
   "oembed_title": "",
-  "pushed_at": "2026-06-21",
+  "pushed_at": "2026-09-09",
   "stars": 799,
   "status": "ok",
   "url": "https://github.com/supermemoryai/openclaw-supermemory"
@@ -262,6 +278,22 @@
   "status": "ok",
   "url": "https://docs.openclaw.ai/help/environment"
  },
+ "355e0c55": {
+  "archived": false,
+  "final_url": "https://clawhub.ai/jordymaui/skills/kickstart",
+  "full_name": "",
+  "gh_description": "",
+  "http_status": 200,
+  "last_checked": "2026-09-09",
+  "license": "",
+  "oembed_title": "",
+  "page_description": "Installs core workspace files, memory systems, expert personas, sub-agent templates, heartbeat patterns, and automation scaffolding to set up or optimize Ope...",
+  "page_title": "Kickstart - ClawHub",
+  "pushed_at": "",
+  "stars": null,
+  "status": "ok",
+  "url": "https://clawhub.ai/jordymaui/skills/kickstart"
+ },
  "3950fb91": {
   "archived": false,
   "final_url": "https://www.reddit.com/r/OpenClawUseCases/comments/1rd9t8b/i_rebuilt_my_entire_life_os_with_openclaw_after/",
@@ -276,6 +308,21 @@
   "stars": null,
   "status": "ok",
   "url": "https://www.reddit.com/r/OpenClawUseCases/comments/1rd9t8b/i_rebuilt_my_entire_life_os_with_openclaw_after"
+ },
+ "3e915d1e": {
+  "archived": false,
+  "final_url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
+  "full_name": "anthropics/skills",
+  "gh_description": "Public repository for Agent Skills",
+  "homepage": "",
+  "http_status": 200,
+  "last_checked": "2026-09-09",
+  "license": "",
+  "oembed_title": "",
+  "pushed_at": "2026-09-03",
+  "stars": 175351,
+  "status": "ok",
+  "url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design"
  },
  "404c717a": {
   "archived": false,
@@ -303,8 +350,8 @@
   "last_checked": "2026-09-09",
   "license": "MIT",
   "oembed_title": "",
-  "pushed_at": "2026-09-08",
-  "stars": 23261,
+  "pushed_at": "2026-09-09",
+  "stars": 23306,
   "status": "ok",
   "url": "https://github.com/vectorize-io/hindsight"
  },
@@ -404,6 +451,21 @@
   "status": "ok",
   "url": "https://x.com/coreyganim/status/2036103806975426779"
  },
+ "6af93ea4": {
+  "archived": false,
+  "final_url": "https://github.com/ollama/ollama",
+  "full_name": "ollama/ollama",
+  "gh_description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+  "homepage": "https://ollama.com",
+  "http_status": 200,
+  "last_checked": "2026-09-09",
+  "license": "MIT",
+  "oembed_title": "",
+  "pushed_at": "2026-09-09",
+  "stars": 180505,
+  "status": "ok",
+  "url": "https://github.com/ollama/ollama"
+ },
  "6d996c4a": {
   "also": {
    "https://www.youtube.com/watch?v=BhjK2Gr0Ryc": {
@@ -461,7 +523,7 @@
   "license": "Apache-2.0",
   "oembed_title": "",
   "pushed_at": "2026-05-09",
-  "stars": 9958,
+  "stars": 9957,
   "status": "ok",
   "url": "https://github.com/cloudflare/moltworker"
  },
@@ -561,6 +623,21 @@
   "status": "ok",
   "url": "https://clawhub.ai/JimLiuxinghai/skills/find-skills"
  },
+ "8d24bbf7": {
+  "archived": false,
+  "final_url": "https://github.com/agenticnotetaking/arscontexta",
+  "full_name": "agenticnotetaking/arscontexta",
+  "gh_description": "Claude Code plugin that generates individualized knowledge systems from conversation. You describe how you think and work, have a conversation and get a complete second brain as markdown files you own.",
+  "homepage": "https://arscontexta.org",
+  "http_status": 200,
+  "last_checked": "2026-09-09",
+  "license": "MIT",
+  "oembed_title": "",
+  "pushed_at": "2026-02-24",
+  "stars": 3487,
+  "status": "ok",
+  "url": "https://github.com/agenticnotetaking/arscontexta"
+ },
  "8f259406": {
   "archived": false,
   "final_url": "https://www.instagram.com/p/DVJPnoGkvnd?img_index=1",
@@ -590,6 +667,21 @@
   "status": "ok",
   "url": "https://github.com/martian-engineering/lossless-claw"
  },
+ "a201267d": {
+  "archived": false,
+  "final_url": "https://github.com/snarktank/clawchief",
+  "full_name": "snarktank/clawchief",
+  "gh_description": "Turn your OpenClaw into a Chief of Staff",
+  "homepage": "https://ryancarson.com",
+  "http_status": 200,
+  "last_checked": "2026-09-09",
+  "license": "",
+  "oembed_title": "",
+  "pushed_at": "2026-04-09",
+  "stars": 1099,
+  "status": "ok",
+  "url": "https://github.com/snarktank/clawchief"
+ },
  "a868fe0d": {
   "archived": false,
   "final_url": "https://x.com/kloss_xyz/status/2023142088850944283",
@@ -605,6 +697,21 @@
   "stars": null,
   "status": "ok",
   "url": "https://x.com/kloss_xyz/status/2023142088850944283"
+ },
+ "ad8aecbf": {
+  "archived": false,
+  "final_url": "https://github.com/pskoett/self-improving-agent",
+  "full_name": "pskoett/self-improving-agent",
+  "gh_description": "",
+  "homepage": "",
+  "http_status": 200,
+  "last_checked": "2026-09-09",
+  "license": "",
+  "oembed_title": "",
+  "pushed_at": "2026-08-06",
+  "stars": 748,
+  "status": "ok",
+  "url": "https://github.com/pskoett/self-improving-agent"
  },
  "aebab35b": {
   "also": {
@@ -624,7 +731,7 @@
   "license": "MIT",
   "oembed_title": "",
   "pushed_at": "2026-03-24",
-  "stars": 31672,
+  "stars": 31671,
   "status": "ok",
   "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases"
  },
@@ -669,12 +776,27 @@
   "last_checked": "2026-09-09",
   "license": "",
   "oembed_title": "",
-  "page_description": "Spawn isolated background agent runs that announce results back to the requester chat",
+  "page_description": "Index of the OpenClaw sub-agent documentation, one page per reader job",
   "page_title": "Sub-agents - OpenClaw",
   "pushed_at": "",
   "stars": null,
   "status": "ok",
   "url": "https://docs.openclaw.ai/tools/subagents"
+ },
+ "b861bbe9": {
+  "archived": false,
+  "final_url": "https://github.com/mem0ai/mem0",
+  "full_name": "mem0ai/mem0",
+  "gh_description": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
+  "homepage": "https://mem0.ai",
+  "http_status": 200,
+  "last_checked": "2026-09-09",
+  "license": "Apache-2.0",
+  "oembed_title": "",
+  "pushed_at": "2026-09-09",
+  "stars": 64989,
+  "status": "ok",
+  "url": "https://github.com/mem0ai/mem0"
  },
  "b89be524": {
   "archived": false,
@@ -770,6 +892,36 @@
   "stars": null,
   "status": "ok",
   "url": "https://docs.openclaw.ai/gateway/health"
+ },
+ "d2c4f5ad": {
+  "archived": false,
+  "final_url": "https://github.com/czl9707/build-your-own-openclaw",
+  "full_name": "czl9707/build-your-own-openclaw",
+  "gh_description": "A step-by-step guide to build your own AI agent.",
+  "homepage": "https://build-your-own-openclaw.kiyo-n-zane.com/",
+  "http_status": 200,
+  "last_checked": "2026-09-09",
+  "license": "MIT",
+  "oembed_title": "",
+  "pushed_at": "2026-07-08",
+  "stars": 1878,
+  "status": "ok",
+  "url": "https://github.com/czl9707/build-your-own-openclaw"
+ },
+ "d339c484": {
+  "archived": false,
+  "final_url": "https://github.com/tobi/qmd",
+  "full_name": "tobi/qmd",
+  "gh_description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
+  "homepage": "",
+  "http_status": 200,
+  "last_checked": "2026-09-09",
+  "license": "MIT",
+  "oembed_title": "",
+  "pushed_at": "2026-08-18",
+  "stars": 29623,
+  "status": "ok",
+  "url": "https://github.com/tobi/qmd"
  },
  "d4bf255f": {
   "archived": false,
@@ -898,6 +1050,21 @@
   "status": "ok",
   "url": "https://github.com/BlockRunAI/ClawRouter"
  },
+ "e6109c84": {
+  "archived": false,
+  "final_url": "https://github.com/topoteretes/cognee",
+  "full_name": "topoteretes/cognee",
+  "gh_description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
+  "homepage": "https://www.cognee.ai",
+  "http_status": 200,
+  "last_checked": "2026-09-09",
+  "license": "Apache-2.0",
+  "oembed_title": "",
+  "pushed_at": "2026-09-09",
+  "stars": 30610,
+  "status": "ok",
+  "url": "https://github.com/topoteretes/cognee"
+ },
  "e67161df": {
   "archived": false,
   "final_url": "https://github.com/VoltAgent/awesome-openclaw-skills",
@@ -909,7 +1076,7 @@
   "license": "MIT",
   "oembed_title": "",
   "pushed_at": "2026-09-05",
-  "stars": 52455,
+  "stars": 52462,
   "status": "ok",
   "url": "https://github.com/VoltAgent/awesome-openclaw-skills"
  },

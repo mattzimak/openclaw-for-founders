@@ -1,6 +1,6 @@
 # OpenClaw for founders
 
-56 entries · last verified 2026-09-09 · 56 links checked · 0 dead
+72 entries · last verified 2026-09-09 · 72 links checked · 0 dead
 
 One founder's working list of what actually helps when you run a company with an OpenClaw agent: the setup choices I made and why, the security rules I keep, the skills I install, the memory patterns that stuck, and the people worth learning from. It is not a directory of everything that exists - if something is here, it earned its place in real work. The longer notes live in [FIELD-NOTES.md](FIELD-NOTES.md). Suggest a link by opening an issue (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 
@@ -48,22 +48,27 @@ Descriptions are my own notes where I wrote one. Where I only saved a link, the 
 
 Videos, threads and write-ups that taught me how OpenClaw actually behaves - start here if you have not installed it yet.
 
+- [28 painful mistakes I made with OpenClaw so you don't have to (kloss on X)](https://x.com/kloss_xyz/status/2032011756890177552) - kloss's X article on 28 painful mistakes he made with OpenClaw in three weeks of importing other people's prompts, skills and memory systems into a working setup: words that trigger the wrong actions, agents that do everything, context lost in handoffs, rules set up in the wrong order, two agents on the same files, silent agents, five fixes at once, sessions that die with unsaved work, 'done'...
+- [Build an entire OpenClaw agent in under a day (0xMarioNawfal on X, video)](https://x.com/roundtablespace/status/2044879754969387022) - repost of Julian Goldie's walkthrough of the build-your-own-openclaw tutorial repo: clone the lightweight agent repo, add an OpenRouter key, run the first chat loop locally, enable file and shell tools, then work through the 17 steps up to memory and concurrency control. No deep coding skills needed, the repo does the teaching.
+- [build-your-own-openclaw](https://github.com/czl9707/build-your-own-openclaw) - The 17-step tutorial repo (MIT) the video walks through: from the first chat loop to tools, multi-layer prompts, agent dispatch, concurrency control and memory, so you understand what OpenClaw does under the hood (via @RoundtableSpace's post) · 1.9k stars · MIT · updated 2026-07
 - [Claude Code as a personal OS - setup with Moritz Kremb (Peter Yang on LinkedIn)](https://www.linkedin.com/posts/petergyang_this-is-the-most-complete-setup-ive-seen-ugcPost-7459248459813064705-5eB4) - Peter Yang's video post with Moritz Kremb, captioned 'this is the most complete setup I've seen'. Filed under my OpenClaw learning material although the walkthrough is Claude Code as a personal OS.
+- [clawchief](https://github.com/snarktank/clawchief) - Ryan Carson's executive-assistant layer for OpenClaw: skills, workspace files (HEARTBEAT.md, TOOLS.md, one canonical tasks.md), private context templates and cron jobs, installed on top of a working OpenClaw plus Google access (via @ryancarson's post) · 1.1k stars · updated 2026-04
 - [From skeptic to true believer: How OpenClaw changed my life | Claire Vo](https://www.youtube.com/watch?v=DIa0MYJzM5I&t=1s) - Claire Vo is the host of our sister podcast, “How I AI,” a former product executive and engineer, and founder of an AI startup called ChatPRD.
 - [Full Tutorial: Use OpenClaw to Build a Business That Runs Itself in 35 Min | Nat Eliason](https://www.youtube.com/watch?v=nSBKCZQkmYw) - Meet Felix: The OpenClaw bot building its own business.
-- [How to build an entire OpenClaw agent in less than one day (0xMarioNawfal on X)](https://x.com/roundtablespace/status/2044879754969387022) - Thread embedded under my Learning toggle: here's how to build an entire OpenClaw agent in less than one day.
 - [How to set up Clawdbot for Google Ads and Meta Ads (get-ryze.ai)](https://www.get-ryze.ai/blog/clawdbot-google-meta-ads) - A practical guide for marketers who want an AI assistant managing their ad accounts: pull reports, analyze data and automate Google Ads and Meta Ads tasks over text messages. Clawdbot is OpenClaw's old name.
 - [I fixed OpenClaw so it actually works (full setup)](https://www.youtube.com/watch?v=fd4k16REDOU) - I sit down with Moritz Kremb, an OpenClaw power user and agency builder based in Berlin, to break down how to actually make OpenClaw useful.
-- [I rebuilt my entire life OS with OpenClaw (r/OpenClawUseCases)](https://www.reddit.com/r/OpenClawUseCases/comments/1rd9t8b/i_rebuilt_my_entire_life_os_with_openclaw_after) - Reddit thread by someone who rebuilt their whole personal 'life OS' on OpenClaw - the first link under my best-practices notes.
-- [OpenClaw install checklist (Moritz Kremb on X)](https://x.com/moritzkremb/status/2029304864719667335) - Moritz Kremb's install checklist, posted on X - the post itself is just a link. The same Moritz as in the 'I fixed OpenClaw so it actually works' video.
+- [I rebuilt my entire life OS with OpenClaw (r/OpenClawUseCases)](https://www.reddit.com/r/OpenClawUseCases/comments/1rd9t8b/i_rebuilt_my_entire_life_os_with_openclaw_after) - Reddit write-up of the seven use cases from Matthew Berman's video on the 21 OpenClaw automations he runs daily: a self-updating personal CRM fed by Gmail and meeting transcripts, a nightly four-agent security council, an eight-expert business advisory council, a video idea research pipeline, a morning briefing to Telegram, cross-platform social stats and a food journal. The thread's own takeaway: scheduled skills plus Telegram notifications plus clean data pipelines, nothing magic.
+- [OpenClaw optimized setup guide, the post-install checklist (Moritz Kremb on X)](https://x.com/moritzkremb/status/2029304864719667335) - Moritz Kremb's X article with the 30 to 60 minute hardening pass after a fresh install: personalise USER.md, IDENTITY.md and SOUL.md, make memory reliable with MEMORY.md plus daily files and a heartbeat rule that promotes learnings, set a primary model with fallbacks, move secrets out of the workspace and allowlist Telegram, add a Brave key and a managed browser profile, harden heartbeat and cron...
 - [Setting up OpenClaw properly, not just install and chat (Corey Ganim on X)](https://x.com/coreyganim/status/2036103806975426779) - when I send this to all my friends and they finally understand how to perfectly set up OpenClaw not just "install and chat" a real workspace with memory, skills, and custom behavior.
+- [The Claw native app studio (Ernesto Lopez on X)](https://x.com/ernestosoftware/status/2037187494530208029) - Ernesto Lopez's X article on his agentic app studio: have your OpenClaw agent validate the idea first by pulling the onboarding flows of the top three competitor apps on screensdesign.com and proposing a better one, build the app with Rork, then hand the agent every marketing angle from App Store screenshots to Apple Search Ads.
 - [The ultimate guide to OpenClaw - 1 hour free masterclass (Greg Isenberg on X)](https://x.com/gregisenberg/status/2034778615464735000) - Greg Isenberg's thread: fix memory so it compounds (MEMORY.md plus daily logs, promote important learnings), then the rest of his one-hour masterclass.
+- [Turn your OpenClaw into the world's best assistant (Ryan Carson on X)](https://x.com/ryancarson/status/2039786704731541903) - Ryan Carson's X article on running OpenClaw as a chief of staff: it schedules meetings, checks the inbox every 15 minutes and surfaces only what matters, chases unanswered emails, watches the calendar, keeps one canonical markdown task list and preps the day before he wakes up.
 
 ## Install and first week
 
 The choices the installer asks you to make (model, channel, search, skills, package manager, hooks, Control UI) and how to survive the first week without breaking anything. My reasoning for each choice is in the notes.
 
-- [If you installed OpenClaw this week, read this (r/clawdbot)](https://www.reddit.com/r/clawdbot/comments/1s270n0/if_you_installed_openclaw_this_week_read_this) - Reddit thread addressed to people who installed OpenClaw this week - the bookmark sits next to my first-week notes.
+- [If you installed OpenClaw this week, read this (r/clawdbot)](https://www.reddit.com/r/clawdbot/comments/1s270n0/if_you_installed_openclaw_this_week_read_this) - ShabzSparq's checklist after fixing 50+ OpenClaw setups, in order: switch the default model off Opus to Sonnet before the bill surprises you, bind the gateway to 127.0.0.1 and reach it over an SSH tunnel, read BOOTSTRAP.md and write a six-line SOUL.md before the first real task, and install no skills in week one because some loop silently and burn tokens. 559 upvotes, 64 comments.
 - [OpenClaw setup guide: build your personal AI agent (Claire Vo, Lenny's Newsletter)](https://www.lennysnewsletter.com/p/openclaw-the-complete-guide-to-building) - I built a team of 9 AI agents that run my work and life. Here's how you can too.
 
 ### Channel choice
@@ -81,8 +86,12 @@ My notes on this section: [Install and first week](FIELD-NOTES.md#install-and-fi
 
 How the agent remembers between sessions: the learnings-folder pattern, lossless context, memory plugins and what I still fight with.
 
+- [Cognee](https://github.com/topoteretes/cognee) - Open-source memory platform that builds a knowledge graph from your agent's data, with an official OpenClaw integration in its docs (via @KSimback's post) · 30k stars · Apache-2.0 · updated 2026-09
+- [Give your OpenClaw the memory it needs, full guide (Kevin Simback on X)](https://x.com/ksimback/status/2024180197910864182) - Kevin Simback's X article on why OpenClaw forgets: memory is never saved (the model decides what is worth writing), saved but never searched, or destroyed by context compaction mid-session.
 - [Hindsight](https://github.com/vectorize-io/hindsight) - agent memory that learns - Hindsight: Agent Memory That Learns. · 23k stars · MIT · updated 2026-09
 - [LCM](https://github.com/martian-engineering/lossless-claw) - Lossless Context Management (open-source plugin designed by Martian Engineering) to replace the default, lossy conversation-compaction system. · 4.9k stars · MIT · updated 2026-08
+- [Mem0](https://github.com/mem0ai/mem0) - Drop-in memory layer for agents, the option Kevin reaches for when config-only memory is not enough; it has an OpenClaw write-up on its blog (via @KSimback's post) · 64k stars · Apache-2.0 · updated 2026-09
+- [QMD](https://github.com/tobi/qmd) - Tobi Lutke's mini CLI search engine for notes and docs; local search over MEMORY.md and the daily files so the agent finds what it already wrote (via @KSimback's post) · 29k stars · MIT · updated 2026-08
 - [Supermemory](https://supermemory.ai) - Agents need memory. Supermemory is building the default engine for memory and continual learning for agents.
 
 My notes on this section: [Memory and context](FIELD-NOTES.md#memory-and-context) (12 notes).
@@ -103,11 +112,12 @@ My notes on this section: [Security](FIELD-NOTES.md#security) (13 notes).
 Which model runs what, how to switch, and how to stop the bill from growing: routers, token providers and the numbers I wrote down.
 
 - [ClawRouter](https://github.com/BlockRunAI/ClawRouter) - Smart LLM routing to optimize token burn, if simple question = routing to cheap model, complex code - escalates to Opus or Sonnet. · 6.6k stars · MIT · updated 2026-09
-- [Local heartbeat with a local model (Instagram post)](https://www.instagram.com/p/DVJPnoGkvnd?img_index=1) - Run the heartbeat locally with a local model - an Instagram post I saved under token burn; the platform shows crawlers nothing, my note on it is in the field notes.
+- [Local heartbeat and 9 more OpenClaw lessons (Divyanshi Sharma on Instagram)](https://www.instagram.com/p/DVJPnoGkvnd?img_index=1) - Divyanshi Sharma's 18-slide carousel, ten things she wishes she knew before running OpenClaw: the agent makes 48 heartbeat calls a day by default, so route heartbeats to a local model (Ollama with llama3.2:1b) and keep the paid API for real work, stop model-hopping across free tiers and set automatic fallback models, install only trusted skills from ClawHub after reading SKILL.md, fight context...
+- [Ollama](https://github.com/ollama/ollama) - Run llama3.2:1b or any small model locally so the OpenClaw heartbeat costs nothing and works offline, and keep the paid API for the real work (via @divyannshisharma's post) · 180k stars · MIT · updated 2026-09
 
 ### GPT 5.4
 
-- [GPT 5.4 in OpenClaw: the settings to change (r/openclaw)](https://www.reddit.com/r/openclaw/comments/1sgpg8b/a_lot_of_the_new_gpt_54_sucks_in_openclaw_posts) - The r/openclaw thread behind the wave of 'GPT 5.4 sucks in OpenClaw' posts - when you switch, change the settings it lists.
+- [GPT 5.4 in OpenClaw: the settings to change (r/openclaw)](https://www.reddit.com/r/openclaw/comments/1sgpg8b/a_lot_of_the_new_gpt_54_sucks_in_openclaw_posts) - r/openclaw thread arguing that most 'GPT 5.4 sucks in OpenClaw' complaints are setup problems: update to at least OpenClaw 2026.4.5, turn reasoning on with thinking at medium or higher, use the openai-responses path, enable block streaming when the bot lives in Telegram, and keep enough recent context. The author still finds GPT 5.4 needs tighter steering than Opus 4.6, and prefers it that way.
 
 ### GPT 5.5
 
@@ -131,8 +141,11 @@ The skills I install or keep an eye on, grouped by what they are for. Star count
 
 ### General
 
+- [arscontexta](https://github.com/agenticnotetaking/arscontexta) - Heinrich's Claude Code plugin from the Skill Graphs article: a 250-file skill graph that sets up a markdown knowledge system and fills it with /learn and /reduce, the worked example of the pattern (via @arscontexta's post) · 3.5k stars · MIT · updated 2026-02
+- [Before you do anything with OpenClaw, install Kickstart (jordy on X)](https://x.com/jordymaui/status/2027067341280891204) - jordy's X article: before you chat with a fresh OpenClaw agent, run npx clawhub install kickstart and say 'run kickstart setup'. The free skill installs SOUL.md, USER.md and MEMORY.md templates, an anchor.md of non-negotiable rules that survives context compaction, model defaults that put heartbeats on Haiku instead of Opus, and a context bundle protocol so sub-agents get a real brief. The article explains each problem it solves.
 - [find-skills (ClawHub)](https://clawhub.ai/JimLiuxinghai/skills/find-skills) - Auto-discovers and installs skills on demand.
-- [Kickstart](https://x.com/jordymaui/status/2027067341280891204) - Skill that will implement the core things - an X post by @jordymaui (the post itself is a link).
+- [Kickstart (ClawHub)](https://clawhub.ai/jordymaui/skills/kickstart) - The skill from jordy's article: one install that sets up memory files, personality, rules, cost-saving model defaults and automation scaffolding on a fresh OpenClaw (via @jordymaui's post)
+- [Skill graphs beat one SKILL.md (Heinrich, @arscontexta on X)](https://x.com/arscontexta/status/2023957499183829467) - Heinrich's X article arguing that one SKILL.md file cannot hold real depth, so build a skill graph instead: many small markdown files with YAML descriptions the agent can scan, wikilinks written into prose so it follows the relevant paths, and maps of content that group clusters.
 
 ### Token Efficiency
 
@@ -140,7 +153,7 @@ The skills I install or keep an eye on, grouped by what they are for. Star count
 
 ### Memory
 
-- [openclaw-supermemory](https://github.com/supermemoryai/openclaw-supermemory) - Unlimited memory for the agent - long-term memory and recall for your OpenClaw agent through Supermemory. · 799 stars · updated 2026-06
+- [openclaw-supermemory](https://github.com/supermemoryai/openclaw-supermemory) - Unlimited memory for the agent - long-term memory and recall for your OpenClaw agent through Supermemory. · 799 stars · updated 2026-09
 
 ### Security
 
@@ -153,7 +166,8 @@ The skills I install or keep an eye on, grouped by what they are for. Star count
 
 ### Image & Video generation
 
-- [Larry (LarryBrain)](https://www.larrybrain.com) - TikTok video-making skill on LarryBrain, now also a standalone app on LarryLoop - the X post is the announcement. · also: [larryloop.com](https://www.larryloop.com) · also: [x.com](https://x.com/oliverhenry/status/2023776478446436696)
+- [Larry (ClawHub)](https://clawhub.ai/OllieWazza/larry) - The free skill from Ollie Warren's article: one-shots the TikTok slideshow system his agent Larry runs daily, from hook formulas to the RevenueCat revenue loop (via @oliverhenry's post)
+- [Larry (LarryBrain)](https://www.larrybrain.com) - Ollie Warren's TikTok slideshow skill for OpenClaw: his agent Larry took his apps to 8M views in a week, and the X article walks through the skill files, the hook formulas and the RevenueCat revenue loop. LarryBrain is the product site, LarryLoop the standalone app, and the ClawHub skill has its own entry. · also: [larryloop.com](https://www.larryloop.com) · also: [x.com](https://x.com/oliverhenry/status/2023776478446436696)
 
 ### Marketing, Ads & SEO
 
@@ -177,7 +191,8 @@ Prompt packs worth stealing from, the awesome-lists I go back to, and a few plac
 
 ### Prompts
 
-- [Design Director Agent](https://x.com/kloss_xyz/status/2023142088850944283) - Full Design Agency Replacement (by @kloss_xyz)
+- [Design Director Agent](https://x.com/kloss_xyz/status/2023142088850944283) - kloss's system prompt that replaces a design agency with OpenClaw: a Design Director agent that inherits Claude Code's frontend-design skill, extracts 30 to 50 scored references from designer accounts and sites you like, turns them into tokens and principles, spawns eight sub-agents (visual identity, UI and UX, design systems, motion, creative direction, layout and typography, design research,...
+- [frontend-design skill (anthropics/skills)](https://github.com/anthropics/skills/tree/main/skills/frontend-design) - Anthropic's frontend-design skill is the floor the Design Director prompt inherits from: design thinking, typography, motion and anti-slop rules, with your extracted design DNA layered on top (via @kloss_xyz's post) · 175k stars · updated 2026-09
 - [Mission Control Dashboard](https://x.com/kloss_xyz/status/2022461932759060993) - JARVIS-style AI command center, plus the Jarvis initialization sequence: 8 prompts to configure your OpenClaw agent (both in the same post by @kloss_xyz).
 - [OpenClaw implementation prompts (Matthew Berman's gist)](https://gist.github.com/mberman84/065631c62d6d8f30ecb14748c00fc6d9) - Each prompt is a self-contained brief you can hand to an AI coding assistant, or use as a project spec, to build that use case from scratch - it starts with a personal CRM.
 
@@ -242,6 +257,7 @@ Everything I wrote down, grouped by section, lives in [FIELD-NOTES.md](FIELD-NOT
 ### Self-improving
 
 - [Self-Improving Agent skill (Corey Ganim on X)](https://x.com/coreyganim/status/2035757428579389768) - How to make your OpenClaw agent learn from its mistakes: Install the Self-Improving Agent skill.
+- [self-improving-agent](https://github.com/pskoett/self-improving-agent) - The skill Corey's post is about: logs every error, correction and feature request to files in its learnings folder (.learnings/ERRORS.md, LEARNINGS.md and FEATURE_REQUESTS.md) so the agent stops repeating mistakes; 478k installs on ClawHub (via @coreyganim's post) · 748 stars · updated 2026-08
 
 ## How this list is built
 
@@ -256,7 +272,7 @@ From there everything is automated and reproducible from this repo alone:
 
 Nothing in this README or in `FIELD-NOTES.md` is edited by hand. Fixes go to `data/overrides.json` (keyed by the entry id in `data/links.csv`, or by block id under `_notes` for a note) and the next build picks them up.
 
-Current build: 56 entries in 12 sections, 157 field notes. Links checked: 56, dead: 0, last check: 2026-09-09. What the sync excluded and why is in `data/_report.md`. The field notes are rendered into `FIELD-NOTES.md` by the same build.
+Current build: 72 entries in 12 sections, 157 field notes. Links checked: 72, dead: 0, last check: 2026-09-09. What the sync excluded and why is in `data/_report.md`. The field notes are rendered into `FIELD-NOTES.md` by the same build.
 
 ## License
 

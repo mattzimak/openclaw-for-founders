@@ -199,7 +199,7 @@ Links for this section are in [README.md](README.md#security).
 
 Links for this section are in [README.md](README.md#models-and-token-burn).
 
-- [Local heartbeat with a local model (Instagram post)](https://www.instagram.com/p/DVJPnoGkvnd?img_index=1):
+- [Local heartbeat and 9 more OpenClaw lessons (Divyanshi Sharma on Instagram)](https://www.instagram.com/p/DVJPnoGkvnd?img_index=1):
   - fallback on openrouter, one IP address but agent can connect to any model, involving ideamerocracy = each voice has different weight, connected to historical decisions - learning from past mistakes and changing weights, LLM council, (ChatGPT 5.4, Deepseek, Gemini, Minimax), main caller is OPus - calibrate the models to have highest chance of consensus with Opus? aim: to get second opens/peer review to get highest quality anser considering all options
 - Switching models - Terminal -> openclaw config -> model -> OpenAI codex (follow the directions)
 - OpenClaw - switch models programmatically - switch based on rules?
