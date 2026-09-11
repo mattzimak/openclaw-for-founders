@@ -1,8 +1,8 @@
-# OpenClaw field guide
+# OpenClaw handbook
 
 72 entries · last verified 2026-09-09 · 72 links checked · 0 dead
 
-One founder's field guide to running a company with an OpenClaw agent: the setup choices I made and why, the security rules I keep, the skills I install, the memory patterns that stuck, and the people worth learning from. It is not a directory of everything that exists - if something is here, it earned its place in real work. The longer notes live in [FIELD-NOTES.md](FIELD-NOTES.md). Suggest a link by opening an issue (see [CONTRIBUTING.md](CONTRIBUTING.md)).
+One founder's handbook for running a company with an OpenClaw agent: the setup choices I made and why, the security rules I keep, the skills I install, the memory patterns that stuck, and the people worth learning from. It is not a directory of everything that exists - if something is here, it earned its place in real work. The longer notes live in [FIELD-NOTES.md](FIELD-NOTES.md). Suggest a link by opening an issue (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 
 Descriptions are my own notes where I wrote one. Where I only saved a link, the description is the repository's or the post's own summary. Ratings like `(Matt: 8/10)` are my personal scores.
 
