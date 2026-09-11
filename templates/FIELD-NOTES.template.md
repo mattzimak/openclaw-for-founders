@@ -1,4 +1,4 @@
-# OpenClaw for founders - field notes
+# OpenClaw field notes
 
 {{header_line}}
 

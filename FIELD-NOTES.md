@@ -1,4 +1,4 @@
-# OpenClaw for founders - field notes
+# OpenClaw field notes
 
 157 notes in 8 sections · built from the same data as README.md
 
