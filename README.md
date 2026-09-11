@@ -41,6 +41,7 @@ Descriptions are my own notes where I wrote one. Where I only saved a link, the 
 - [Field notes](#field-notes)
   - [General](#general-1)
   - [Self-improving](#self-improving)
+- [Other useful lists](#other-useful-lists)
 - [How this list is built](#how-this-list-is-built)
 - [License](#license)
 
@@ -258,6 +259,16 @@ Everything I wrote down, grouped by section, lives in [FIELD-NOTES.md](FIELD-NOT
 
 - [Self-Improving Agent skill (Corey Ganim on X)](https://x.com/coreyganim/status/2035757428579389768) - How to make your OpenClaw agent learn from its mistakes: Install the Self-Improving Agent skill.
 - [self-improving-agent](https://github.com/pskoett/self-improving-agent) - The skill Corey's post is about: logs every error, correction and feature request to files in its learnings folder (.learnings/ERRORS.md, LEARNINGS.md and FEATURE_REQUESTS.md) so the agent stops repeating mistakes; 478k installs on ClawHub (via @coreyganim's post) · 748 stars · updated 2026-08
+
+## Other useful lists
+
+This list is deliberately short and opinionated. When you want the exhaustive version, these are the ones I actually open:
+
+- [alvinreal/awesome-openclaw](https://github.com/alvinreal/awesome-openclaw) - the reference directory for the OpenClaw ecosystem: official projects, dashboards, deployment tooling, memory systems, alternative clients, plugins and channel integrations. Several hundred entries against the seventy or so here, so start there when you are looking for a category rather than a recommendation.
+- [alvinreal/awesome-openclaw-tips](https://github.com/alvinreal/awesome-openclaw-tips) - thirty numbered tips on messages, Telegram, memory, reliability, cost, operations, automation and architecture, each with the failure it prevents and a prompt you can paste. The closest thing to this repo's field notes written by someone else, and it covers ground mine does not.
+- [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) - 5,400+ skills filtered and categorised from the official registry. Use it as the index when you know the job you want done and need to find out whether a skill already exists.
+
+The difference is intent, not quality: those are directories of what exists, this is a record of what I kept after using it. If a link appears in both, theirs will be more complete and mine will tell you whether it survived contact with real work.
 
 ## How this list is built
 

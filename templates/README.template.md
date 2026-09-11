@@ -14,6 +14,16 @@ Descriptions are my own notes where I wrote one. Where I only saved a link, the 
 
 {{sections}}
 
+## Other useful lists
+
+This list is deliberately short and opinionated. When you want the exhaustive version, these are the ones I actually open:
+
+- [alvinreal/awesome-openclaw](https://github.com/alvinreal/awesome-openclaw) - the reference directory for the OpenClaw ecosystem: official projects, dashboards, deployment tooling, memory systems, alternative clients, plugins and channel integrations. Several hundred entries against the seventy or so here, so start there when you are looking for a category rather than a recommendation.
+- [alvinreal/awesome-openclaw-tips](https://github.com/alvinreal/awesome-openclaw-tips) - thirty numbered tips on messages, Telegram, memory, reliability, cost, operations, automation and architecture, each with the failure it prevents and a prompt you can paste. The closest thing to this repo's field notes written by someone else, and it covers ground mine does not.
+- [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) - 5,400+ skills filtered and categorised from the official registry. Use it as the index when you know the job you want done and need to find out whether a skill already exists.
+
+The difference is intent, not quality: those are directories of what exists, this is a record of what I kept after using it. If a link appears in both, theirs will be more complete and mine will tell you whether it survived contact with real work.
+
 ## How this list is built
 
 The source is a private Notion page where I keep notes while I work. A sync script in my workspace (`awesome-sync.py`, not in this repo) reads that page through the Notion API and keeps only the sections that are explicitly mapped as public - everything else stays private by default. It canonicalizes every URL (https only, tracking parameters dropped, `youtu.be` and `twitter.com` rewritten), drops links to private places (Notion, Google Drive, course platforms, local addresses), scans every string for secrets and private names, and writes three files: `data/links.csv` (one row per link), `data/notes.json` (the field notes) and `data/_report.md` (what was excluded and why).
